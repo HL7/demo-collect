@@ -1,11 +1,11 @@
-Demographic data is sensitive and can be used to identify or discriminate against individuals. Implementers **SHALL** apply appropriate security and privacy controls when collecting, storing, and exchanging data that uses this Implementation Guide's artifacts.
+Demographic data is sensitive and can be used to identify or discriminate against individuals. Implementers **must** apply appropriate security and privacy controls when collecting, storing, and exchanging data that uses this Implementation Guide's artifacts.
 
 ### General principles
 
-- **Confidentiality** – Demographic data shall be protected in transit and at rest (e.g., TLS for APIs, access controls, and encryption where required by policy).
+- **Confidentiality** – Demographic data must be protected in transit and at rest (e.g., TLS for APIs, access controls, and encryption where required by policy).
 - **Integrity** – Systems should protect against unauthorized modification of demographic data.
 - **Availability** – Access to demographic data via APIs or other interfaces should be consistent with the organization's availability and business continuity requirements.
-- **Access control** – Access shall be limited to authorized users, systems, and purposes (e.g., role-based access, member authorization for third-party apps).
+- **Access control** – Access must be limited to authorized users, systems, and purposes (e.g., role-based access, member authorization for third-party apps).
 
 ### Privacy
 

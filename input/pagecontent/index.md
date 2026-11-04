@@ -2,7 +2,7 @@
 
 | Field | Value |
 |-------|--------|
-| **Official URL** | https://hl7.github.io/demo-collect/ImplementationGuide/ahip.demo |
+| **Official URL** | http://hl7.org/fhir/us/demographic-collect |
 | **Version** | 0.1.0 |
 | **Standard Status** | Trial-use (or informative, as appropriate) |
 | **Maturity Level** | 1 (or 1–5 as applicable) |

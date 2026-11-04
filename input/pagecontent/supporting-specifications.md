@@ -1,5 +1,11 @@
 This Implementation Guide depends on and aligns with the following specifications and initiatives.
 
+{% include dependency-table.xhtml %}
+
+### Cross Version Analysis
+
+{% include cross-version-analysis.xhtml %}
+
 ### FHIR
 
 This Implementation Guide is based on **FHIR R4 (4.0.1)**. Readers should be familiar with FHIR's basic principles, resource and datatype model, and how to read FHIR specifications. Useful starting points:

@@ -7,8 +7,6 @@ Description: "Codes temporarily defined as part of the AHIP DEMo implementation 
 * ^version = "0.0.1"
 * ^status = #active
 * ^date = "2026-10-09T00:00:00-04:00"
-* ^publisher = "AHIP"
-* ^contact.name = "AHIP"
 * ^content = #complete
 * ^caseSensitive = true
 * ^experimental = false
@@ -17,44 +15,44 @@ Description: "Codes temporarily defined as part of the AHIP DEMo implementation 
 // Background (ancestry/ethnicity) — expected destination: CDCREC
 // (formerly AHIPDemoAdditionalBackgroundCodes)
 // ---------------------------------------------------------------
-* #9999-1 "Athabascan"
-* #9999-2 "Haudenosaunee"
-* #9999-4 "Muscogee (Eastern, Lower, Star Clan)"
-* #9999-5 "Angolan"
-* #9999-6 "Cabo Verdean"
-* #9999-7 "Congolese"
-* #9999-8 "Ghanaian"
-* #9999-9 "Kenyan"
-* #9999-10 "Sudanese"
-* #9999-12 "Brazilian"
-* #9999-13 "Emirati"
-* #9999-14 "Jewish: Mizrahi"
-* #9999-15 "Jordanian"
-* #9999-16 "Kurdish"
-* #9999-17 "Kuwaiti"
-* #9999-18 "Libyan"
-* #9999-19 "Saudi"
-* #9999-20 "Danish"
-* #9999-21 "Dutch"
-* #9999-22 "Greek"
-* #9999-23 "Jewish: Ashkenazi"
-* #9999-24 "Jewish: Sephardic"
-* #9999-25 "Lithuanian"
-* #9999-26 "Norwegian"
-* #9999-27 "Portuguese"
-* #9999-28 "Russian"
-* #9999-29 "Swedish"
-* #9999-30 "Ukrainian"
-* #9999-31 "Welsh"
-* #9999-32 "Yemeni"
+* #9999-1 "Athabascan" "Self-identified Athabascan background. Temporary code expected to move to CDCREC."
+* #9999-2 "Haudenosaunee" "Self-identified Haudenosaunee background. Temporary code expected to move to CDCREC."
+* #9999-4 "Muscogee (Eastern, Lower, Star Clan)" "Self-identified Muscogee background, including Eastern, Lower, and Star Clan. Temporary code expected to move to CDCREC."
+* #9999-5 "Angolan" "Self-identified Angolan background. Temporary code expected to move to CDCREC."
+* #9999-6 "Cabo Verdean" "Self-identified Cabo Verdean background. Temporary code expected to move to CDCREC."
+* #9999-7 "Congolese" "Self-identified Congolese background. Temporary code expected to move to CDCREC."
+* #9999-8 "Ghanaian" "Self-identified Ghanaian background. Temporary code expected to move to CDCREC."
+* #9999-9 "Kenyan" "Self-identified Kenyan background. Temporary code expected to move to CDCREC."
+* #9999-10 "Sudanese" "Self-identified Sudanese background. Temporary code expected to move to CDCREC."
+* #9999-12 "Brazilian" "Self-identified Brazilian background. Temporary code expected to move to CDCREC."
+* #9999-13 "Emirati" "Self-identified Emirati background. Temporary code expected to move to CDCREC."
+* #9999-14 "Jewish: Mizrahi" "Self-identified Mizrahi Jewish background. Temporary code expected to move to CDCREC."
+* #9999-15 "Jordanian" "Self-identified Jordanian background. Temporary code expected to move to CDCREC."
+* #9999-16 "Kurdish" "Self-identified Kurdish background. Temporary code expected to move to CDCREC."
+* #9999-17 "Kuwaiti" "Self-identified Kuwaiti background. Temporary code expected to move to CDCREC."
+* #9999-18 "Libyan" "Self-identified Libyan background. Temporary code expected to move to CDCREC."
+* #9999-19 "Saudi" "Self-identified Saudi background. Temporary code expected to move to CDCREC."
+* #9999-20 "Danish" "Self-identified Danish background. Temporary code expected to move to CDCREC."
+* #9999-21 "Dutch" "Self-identified Dutch background. Temporary code expected to move to CDCREC."
+* #9999-22 "Greek" "Self-identified Greek background. Temporary code expected to move to CDCREC."
+* #9999-23 "Jewish: Ashkenazi" "Self-identified Ashkenazi Jewish background. Temporary code expected to move to CDCREC."
+* #9999-24 "Jewish: Sephardic" "Self-identified Sephardic Jewish background. Temporary code expected to move to CDCREC."
+* #9999-25 "Lithuanian" "Self-identified Lithuanian background. Temporary code expected to move to CDCREC."
+* #9999-26 "Norwegian" "Self-identified Norwegian background. Temporary code expected to move to CDCREC."
+* #9999-27 "Portuguese" "Self-identified Portuguese background. Temporary code expected to move to CDCREC."
+* #9999-28 "Russian" "Self-identified Russian background. Temporary code expected to move to CDCREC."
+* #9999-29 "Swedish" "Self-identified Swedish background. Temporary code expected to move to CDCREC."
+* #9999-30 "Ukrainian" "Self-identified Ukrainian background. Temporary code expected to move to CDCREC."
+* #9999-31 "Welsh" "Self-identified Welsh background. Temporary code expected to move to CDCREC."
+* #9999-32 "Yemeni" "Self-identified Yemeni background. Temporary code expected to move to CDCREC."
 
 // ---------------------------------------------------------------
 // Relationship status — expected destination: HL7 (v3-MaritalStatus)
 // (formerly AHIPDemoAdditionalRelationshipStatusCodes)
 // ---------------------------------------------------------------
-* #DATI "Dating (Non-committed relationship)"
-* #MONR "Monogamous relationship (Committed relationship with one person)"
-* #POLY "Polyamorous relationship (Committed relationship with more than one person)"
+* #DATI "Dating (Non-committed relationship)" "A current dating relationship that is not a committed partnership."
+* #MONR "Monogamous relationship (Committed relationship with one person)" "A committed relationship with one person."
+* #POLY "Polyamorous relationship (Committed relationship with more than one person)" "A committed relationship with more than one person."
 
 // ---------------------------------------------------------------
 // Religion / spirituality — expected destination: HL7 (v3-ReligiousAffiliation)

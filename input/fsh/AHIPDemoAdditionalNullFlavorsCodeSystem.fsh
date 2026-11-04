@@ -7,7 +7,6 @@ Description: "An additional collection of codes specifying why a valid value is 
 * ^version = "0.0.1"
 * ^status = #active
 * ^date = "2026-08-25T00:00:00-04:00"
-* ^contact.name = "AHIP"
 * ^content = #complete
 * ^caseSensitive = true
 * ^experimental = false

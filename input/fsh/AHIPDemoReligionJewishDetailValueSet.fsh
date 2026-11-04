@@ -7,7 +7,6 @@ Description: "Used as the answer options for the Jewish movement detail question
 * ^status = #active
 * ^experimental = false
 * ^date = "2026-08-25T00:00:00-04:00"
-* ^contact.name = "AHIP"
 * ^jurisdiction = urn:iso:std:iso:3166#US   
 * ^copyright = "This value set includes content developed through the DEMo Initiative and is subject to joint copyright of America's Health Insurance Plans (AHIP) and Health Level Seven International (HL7)."
 * $AHIPDemoTemporaryCodes#JREF "Reform" 

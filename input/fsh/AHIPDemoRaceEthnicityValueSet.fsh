@@ -7,7 +7,6 @@ Description: "Used as the answer options for the initial race/ethnicity question
 * ^status = #active
 * ^experimental = false
 * ^date = "2026-08-25T00:00:00-04:00"
-* ^contact.name = "AHIP"
 * ^jurisdiction = urn:iso:std:iso:3166#US
 * ^copyright = """
 Most of the information on the CDC and ATSDR websites is not subject to copyright, is in the public domain, and may be freely used or reproduced without obtaining copyright permission. For information and exceptions regarding use of CDC material please see https://www.cdc.gov/other/agencymaterials.html.

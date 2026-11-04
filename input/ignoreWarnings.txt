@@ -87,7 +87,7 @@ Wrong Display Name 'Roman Catholic' for http://terminology.hl7.org/CodeSystem/v3
 Wrong Display Name 'Orthodox Christian' for http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation#1036%
 Wrong Display Name 'Presbyterian' for http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation#1040%
 Wrong Display Name 'Seventh-day Adventist' for http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation#1001%
-Wrong Display Name 'Christianity (e.g. Protestant, Roman Catholic, Russian Orthodox, Seventh-day Adventist)' for http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes#CHRI%
+Wrong Display Name 'Christianity (e.g. Protestant, Roman Catholic, Russian Orthodox, Seventh-day Adventist)' for http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-temporary-codes#CHRI%
 
 # Wrong Display Name (BCP-47): common or community language names; each line covers both language value sets
 Wrong Display Name 'Athabaskan (Na-Dene)' for urn:ietf:bcp:47#ath%

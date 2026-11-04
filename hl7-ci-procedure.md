@@ -19,7 +19,7 @@ Checked 28 October 2026. None of the CI setup below has been done.
 | FHIR IG Builder app | Not installed |
 | CI URL | https://build.fhir.org/ig/HL7/demo-collect/ (not built yet) |
 | Package id | `ahip.demo` |
-| Canonical | `http://ahip.org/demographics` |
+| Canonical | `http://hl7.org/fhir/us/demographic-collect` |
 | `releaseLabel` | `ci-build` (already set in `sushi-config.yaml`) |
 | Publisher input | `ig.ini` at the repository root |
 

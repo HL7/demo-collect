@@ -1,6 +1,8 @@
-This Implementation Guide may contain or reference intellectual property owned by third parties ("Third Party IP"). Implementers and testers of this specification **SHALL** comply with the license requirements for each terminology or other artifact they use.
+{% include ip-statements.xhtml %}
 
-Terminology and other IP licenses **SHALL** be obtained from the relevant Third-Party IP owner for each code system, value set, or other artifact used. It is the sole responsibility of each organization deploying or testing this specification to ensure that its implementations comply with all applicable Third-Party IP and licensing requirements.
+This Implementation Guide may contain or reference intellectual property owned by third parties ("Third Party IP"). Implementers and testers of this specification **must** comply with the license requirements for each terminology or other artifact they use.
+
+Terminology and other IP licenses **must** be obtained from the relevant Third-Party IP owner for each code system, value set, or other artifact used. It is the sole responsibility of each organization deploying or testing this specification to ensure that its implementations comply with all applicable Third-Party IP and licensing requirements.
 
 This publication is subject to **joint copyright** of America's Health Insurance Plans (AHIP) and Health Level Seven International (HL7). Demographic questions, response options, and related narrative content developed through the DEMo Initiative reflect the collaborative work of AHIP, Civitas Networks for Health, and HL7 stakeholders. Use and distribution of this Implementation Guide are subject to the applicable terms of AHIP and HL7.
 

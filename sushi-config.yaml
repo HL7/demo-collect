@@ -4,11 +4,11 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: ahip.demo
-canonical: http://ahip.org/demographics
+canonical: http://hl7.org/fhir/us/demographic-collect
 name: AhipDemoIG
 # title: Example Title
 # description: Example Implementation Guide for getting started with SUSHI
-status: draft # draft | active | retired | unknown
+status: active # draft | active | retired | unknown
 version: 0.1.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
@@ -16,9 +16,17 @@ releaseLabel: ci-build
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 # jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
-  name: AHIP
-  url: http://ahip.org
+  name: HL7 International / Cross-Group Projects
+  url: http://www.hl7.org/Special/committees/cgp
   # email: test@example.org
+
+extension:
+  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-wg
+    valueCode: cgp
+  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
+    valueCode: trial-use
+  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm
+    valueInteger: 1
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
@@ -76,8 +84,6 @@ pages:
     title: Background
   intellectual-property.md:
     title: Intellectual Property Considerations
-  conventions.md:
-    title: Conventions
   introduction.md:
     title: Introduction
   use-cases.md:
@@ -103,7 +109,6 @@ menu:
   Home: index.html
   Background: background.html
   "Intellectual Property": intellectual-property.html
-  Conventions: conventions.html
   Introduction: introduction.html
   "Use Cases": use-cases.html
   "Supporting Specifications": supporting-specifications.html

@@ -7,7 +7,6 @@ Description: "Used as the answer options for the sexual orientation question in 
 * ^status = #active
 * ^experimental = false
 * ^date = "2026-08-25T00:00:00-04:00"
-* ^contact.name = "AHIP"
 * ^jurisdiction = urn:iso:std:iso:3166#US
 * ^copyright = """
 This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.

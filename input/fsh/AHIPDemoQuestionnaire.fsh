@@ -6,14 +6,14 @@ Usage: #example
 * date = "2025-02-19"
 * version = "0.1.0"
 * status = #draft
-* publisher = "AHIP"
-* contact.name = "AHIP"
+* publisher = "HL7 International / Cross-Group Projects"
+* contact.name = "HL7 International / Cross-Group Projects"
 * contact.telecom.system = #url
-* contact.telecom.value = "http://ahip.org"
+* contact.telecom.value = "http://www.hl7.org/Special/committees/cgp"
 * description = "DRAFT QUESTIONNAIRE FOR AHIP - DRAFT VERSION FOR DISCUSSION ONLY"
 * purpose = "GATHER DEMOGRAPHIC DATA FROM PATIENTS"
-* url = "http://ahip.org/demographics/Questionnaire/AHIPDemoQuestionnaire"
-* name = "AHIP-DEMOGRAPHIC-QUESTIONNAIRE"
+* url = "http://hl7.org/fhir/us/demographic-collect/Questionnaire/AHIPDemoQuestionnaire"
+* name = "AHIPDemographicQuestionnaire"
 * title = "AHIP CIVITAS DEMO QUESTIONNAIRE"
 * copyright = "(C) AHIP-CIVITAS-HL7 INTERNATIONAL, 2025"
 * item[0].type = #group
@@ -33,7 +33,7 @@ Usage: #example
 * item[=].item[=].repeats = true
 * item[=].item[=].linkId = "RAE-1.1"
 * item[=].item[=].text = "Please tell us your background. Check all that apply. (If your background is not listed, please let us know by writing on the blank line)"
-* item[=].item[=].answerValueSet = "http://ahip.org/demographics/ValueSet/ahip-race-category"
+* item[=].item[=].answerValueSet = "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-race-category"
 
 * item[=].item[+].type = #open-choice
 * item[=].item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"

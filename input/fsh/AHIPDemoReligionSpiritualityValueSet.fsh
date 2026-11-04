@@ -7,7 +7,6 @@ Description: "Used as the answer options for the religion, spirituality, or beli
 * ^status = #active
 * ^experimental = false
 * ^date = "2026-08-25T00:00:00-04:00"
-* ^contact.name = "AHIP"
 * ^jurisdiction = urn:iso:std:iso:3166#US
 * ^copyright = """
 This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html

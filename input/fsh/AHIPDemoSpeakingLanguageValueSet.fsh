@@ -7,7 +7,6 @@ Description: "Used as the answer options for the speaking language preferences q
 * ^status = #active
 * ^experimental = false
 * ^date = "2026-08-25T00:00:00-04:00"
-* ^contact.name = "AHIP"
 * ^jurisdiction = urn:iso:std:iso:3166#US
 * ^copyright = """
 This value set includes codes from IETF BCP 47, Tags for Identifying Languages (RFC 5646 and RFC 4647), published by the Internet Engineering Task Force (IETF). The BCP 47 documents are copyright © IETF Trust and the persons identified as the document authors. For more information see https://www.rfc-editor.org/info/bcp47.
