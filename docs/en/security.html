@@ -47,10 +47,9 @@
 	  <script type="text/javascript" src="assets/js/prism.js"></script>
 	  <script type="text/javascript" src="assets/js/prism-fhirpath.js"></script>
 	  <script type="text/javascript" src="assets/js/prism-cql.js"></script>
-    <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"9"}
-    h3,h4,h5,h6{--heading-prefix:"9"}</style>
+    <style type="text/css">h2{--heading-prefix:"8"}
+    h3,h4,h5,h6{--heading-prefix:"8"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
 
@@ -112,9 +111,6 @@
     <a href="intellectual-property.html">Intellectual Property</a>
   </li>
   <li>
-    <a href="conventions.html">Conventions</a>
-  </li>
-  <li>
     <a href="introduction.html">Introduction</a>
   </li>
   <li>
@@ -170,11 +166,29 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">AhipDemoIG - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://ahip.org/demographics/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">AhipDemoIG - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/us/demographic-collect/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Security</h2>
   
 
 
+
+  <table class="colsi" data-fhir="generated">
+    <tr>
+  
+      <td>
+        <i>Page standards status:</i> <a href="http://hl7.org/fhir/R4/versions.html#std-process" title="Standards Status">Informative</a>
+        
+      </td>
+  
+  
+      <td id="toggle-change-display" style="text-align: right;border-left-style: hidden" title="Enable this to see changes since the last official release">
+        <label style="margin:0;font-weight:normal" for="showChanges">Highlight text changes?</label>
+  
+        <input style="margin:0" type="checkbox" id="showChanges" onchange="toggleChanges()"/>
+  
+      </td>
+    </tr>
+  </table>
 
 
 
@@ -196,15 +210,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </ul>
 
 </div>
-<p>Demographic data is sensitive and can be used to identify or discriminate against individuals. Implementers <strong>SHALL</strong> apply appropriate security and privacy controls when collecting, storing, and exchanging data that uses this Implementation Guide's artifacts.</p>
+<p>Demographic data is sensitive and can be used to identify or discriminate against individuals. Implementers <strong>must</strong> apply appropriate security and privacy controls when collecting, storing, and exchanging data that uses this Implementation Guide's artifacts.</p>
 
 <h3 id="general-principles">General principles</h3>
 
 <ul>
-  <li><strong>Confidentiality</strong> – Demographic data shall be protected in transit and at rest (e.g., TLS for APIs, access controls, and encryption where required by policy).</li>
+  <li><strong>Confidentiality</strong> – Demographic data must be protected in transit and at rest (e.g., TLS for APIs, access controls, and encryption where required by policy).</li>
   <li><strong>Integrity</strong> – Systems should protect against unauthorized modification of demographic data.</li>
   <li><strong>Availability</strong> – Access to demographic data via APIs or other interfaces should be consistent with the organization's availability and business continuity requirements.</li>
-  <li><strong>Access control</strong> – Access shall be limited to authorized users, systems, and purposes (e.g., role-based access, member authorization for third-party apps).</li>
+  <li><strong>Access control</strong> – Access must be limited to authorized users, systems, and purposes (e.g., role-based access, member authorization for third-party apps).</li>
 </ul>
 
 <h3 id="privacy">Privacy</h3>
@@ -255,11 +269,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
 
-          IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://ahip.org">AHIP</a>.  
+          IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/cgp">HL7 International / Cross-Group Projects</a>.  
           Package ahip.demo#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Generated 
-  <span title="2026-10-28 11:16:00 -0300">
-    2026-10-28
+  <span title="2026-11-04 22:55:00 +0000">
+    2026-11-04
   </span>
 
           <br/>

@@ -4,7 +4,7 @@
   <id value="ahip-interpreter-modes"/>
   <language value="en"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ahip-interpreter-modes</b></p><a name="ahip-interpreter-modes"> </a><a name="hcahip-interpreter-modes"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href="http://terminology.hl7.org/7.4.0/CodeSystem-v3-ParticipationMode.html"><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationMode</code></a><span title="Version is explicitly stated to be 6.0.0"> version &#x1F4CD;6.0.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="http://terminology.hl7.org/7.4.0/CodeSystem-v3-ParticipationMode.html#v3-ParticipationMode-PHONE">PHONE</a></td><td>Telephone</td><td>Participation by voice communication where the voices of the communicating parties are transported over an electronic medium</td></tr><tr><td><a href="http://terminology.hl7.org/7.4.0/CodeSystem-v3-ParticipationMode.html#v3-ParticipationMode-VIDEOCONF">VIDEOCONF</a></td><td>Video</td><td>Participation by voice and visual communication where the voices and images of the communicating parties are transported over an electronic medium</td></tr><tr><td><a href="http://terminology.hl7.org/7.4.0/CodeSystem-v3-ParticipationMode.html#v3-ParticipationMode-FACE">FACE</a></td><td>In-Person</td><td>Participation by voice communication where parties speak to each other directly.</td></tr></table></li><li>Include these codes as defined in <a href="CodeSystem-ahip-demo-additional-nullFlavor.html"><code>http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.1.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="CodeSystem-ahip-demo-additional-nullFlavor.html#ahip-demo-additional-nullFlavor-CNTR">CNTR</a></td><td>I choose not to respond at this time</td><td>This code is to represent explicitly that the patient has chosen not to respond to this question at this time.</td></tr></table></li></ul></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ahip-interpreter-modes</b></p><a name="ahip-interpreter-modes"> </a><a name="hcahip-interpreter-modes"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href="http://terminology.hl7.org/7.4.0/CodeSystem-v3-ParticipationMode.html"><code>http://terminology.hl7.org/CodeSystem/v3-ParticipationMode</code></a><span title="Version is explicitly stated to be 6.0.0"> version &#x1F4CD;6.0.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="http://terminology.hl7.org/7.4.0/CodeSystem-v3-ParticipationMode.html#v3-ParticipationMode-PHONE">PHONE</a></td><td>Telephone</td><td>Participation by voice communication where the voices of the communicating parties are transported over an electronic medium</td></tr><tr><td><a href="http://terminology.hl7.org/7.4.0/CodeSystem-v3-ParticipationMode.html#v3-ParticipationMode-VIDEOCONF">VIDEOCONF</a></td><td>Video</td><td>Participation by voice and visual communication where the voices and images of the communicating parties are transported over an electronic medium</td></tr><tr><td><a href="http://terminology.hl7.org/7.4.0/CodeSystem-v3-ParticipationMode.html#v3-ParticipationMode-FACE">FACE</a></td><td>In-Person</td><td>Participation by voice communication where parties speak to each other directly.</td></tr></table></li><li>Include these codes as defined in <a href="CodeSystem-ahip-demo-additional-nullFlavor.html"><code>http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-additional-nullFlavor</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.1.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="CodeSystem-ahip-demo-additional-nullFlavor.html#ahip-demo-additional-nullFlavor-CNTR">CNTR</a></td><td>I choose not to respond at this time</td><td>This code is to represent explicitly that the patient has chosen not to respond to this question at this time.</td></tr></table></li></ul></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="cgp"/>
@@ -15,19 +15,19 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="trial-use"/>
   </extension>
-  <url value="http://ahip.org/demographics/ValueSet/ahip-interpreter-modes"/>
+  <url value="http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-interpreter-modes"/>
   <version value="0.1.0"/>
   <name value="AHIPInterpreterModes"/>
   <title value="AHIP Interpreter Modes"/>
   <status value="active"/>
   <experimental value="false"/>
   <date value="2026-08-25T00:00:00-04:00"/>
-  <publisher value="AHIP"/>
+  <publisher value="HL7 International / Cross-Group Projects"/>
   <contact>
-    <name value="AHIP"/>
+    <name value="HL7 International / Cross-Group Projects"/>
     <telecom>
       <system value="url"/>
-      <value value="http://ahip.org"/>
+      <value value="http://www.hl7.org/Special/committees/cgp"/>
     </telecom>
   </contact>
   <description value="Used as the answer options for the interpreter modes question in the Language Section, capturing which interpreter modes a patient is comfortable using."/>
@@ -50,7 +50,7 @@
       </concept>
     </include>
     <include>
-      <system value="http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor"/>
+      <system value="http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-additional-nullFlavor"/>
       <concept>
         <code value="CNTR"/>
         <display value="I choose not to respond at this time"/>

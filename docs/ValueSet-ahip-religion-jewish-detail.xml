@@ -3,7 +3,7 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="ahip-religion-jewish-detail"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ahip-religion-jewish-detail</b></p><a name="ahip-religion-jewish-detail"> </a><a name="hcahip-religion-jewish-detail"> </a><ul><li>Include these codes as defined in <a href="CodeSystem-ahip-demo-temporary-codes.html"><code>http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.1.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-JREF">JREF</a></td><td>Reform</td><td>Jewish Reform Movement</td></tr><tr><td><a href="CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-JCON">JCON</a></td><td>Conservative</td><td>Jewish Conservative Movement</td></tr><tr><td><a href="CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-JORT">JORT</a></td><td>Orthodox</td><td>Jewish Orthodox Movement</td></tr></table></li></ul></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ahip-religion-jewish-detail</b></p><a name="ahip-religion-jewish-detail"> </a><a name="hcahip-religion-jewish-detail"> </a><ul><li>Include these codes as defined in <a href="CodeSystem-ahip-demo-temporary-codes.html"><code>http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-temporary-codes</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.1.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-JREF">JREF</a></td><td>Reform</td><td>Jewish Reform Movement</td></tr><tr><td><a href="CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-JCON">JCON</a></td><td>Conservative</td><td>Jewish Conservative Movement</td></tr><tr><td><a href="CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-JORT">JORT</a></td><td>Orthodox</td><td>Jewish Orthodox Movement</td></tr></table></li></ul></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="cgp"/>
@@ -14,26 +14,26 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="trial-use"/>
   </extension>
-  <url value="http://ahip.org/demographics/ValueSet/ahip-religion-jewish-detail"/>
+  <url value="http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-religion-jewish-detail"/>
   <version value="0.1.0"/>
   <name value="AHIPReligionJewishDetail"/>
   <title value="AHIP Jewish Religion Detail Value Set"/>
   <status value="active"/>
   <experimental value="false"/>
   <date value="2026-08-25T00:00:00-04:00"/>
-  <publisher value="AHIP"/>
+  <publisher value="HL7 International / Cross-Group Projects"/>
   <contact>
-    <name value="AHIP"/>
+    <name value="HL7 International / Cross-Group Projects"/>
     <telecom>
       <system value="url"/>
-      <value value="http://ahip.org"/>
+      <value value="http://www.hl7.org/Special/committees/cgp"/>
     </telecom>
   </contact>
   <description value="Used as the answer options for the Jewish movement detail question, shown only when the patient selects Judaism on the religion/spirituality question."/>
   <copyright value="This value set includes content developed through the DEMo Initiative and is subject to joint copyright of America's Health Insurance Plans (AHIP) and Health Level Seven International (HL7)."/>
   <compose>
     <include>
-      <system value="http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes"/>
+      <system value="http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-temporary-codes"/>
       <concept>
         <code value="JREF"/>
         <display value="Reform"/>

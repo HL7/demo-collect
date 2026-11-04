@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://ahip.org/demographics/ValueSet/ahip-birth-sex> a fhir:ValueSet ;
+<http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-birth-sex> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:Resource.id [ fhir:value "ahip-birth-sex"] ;
   fhir:Resource.language [ fhir:value "en"] ;
@@ -26,21 +26,21 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ] ;
      fhir:Extension.valueCode [ fhir:value "trial-use" ]
   ] ;
-  fhir:ValueSet.url [ fhir:value "http://ahip.org/demographics/ValueSet/ahip-birth-sex"] ;
+  fhir:ValueSet.url [ fhir:value "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-birth-sex"] ;
   fhir:ValueSet.version [ fhir:value "0.1.0"] ;
   fhir:ValueSet.name [ fhir:value "AHIPBirthSex"] ;
   fhir:ValueSet.title [ fhir:value "AHIP Birth Sex"] ;
   fhir:ValueSet.status [ fhir:value "active"] ;
   fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
   fhir:ValueSet.date [ fhir:value "2026-08-25T00:00:00-04:00"^^xsd:dateTime] ;
-  fhir:ValueSet.publisher [ fhir:value "AHIP"] ;
+  fhir:ValueSet.publisher [ fhir:value "HL7 International / Cross-Group Projects"] ;
   fhir:ValueSet.contact [
      fhir:index -1 ;
-     fhir:ContactDetail.name [ fhir:value "AHIP" ] ;
+     fhir:ContactDetail.name [ fhir:value "HL7 International / Cross-Group Projects" ] ;
      fhir:ContactDetail.telecom [
        fhir:index -1 ;
        fhir:ContactPoint.system [ fhir:value "url" ] ;
-       fhir:ContactPoint.value [ fhir:value "http://ahip.org" ]
+       fhir:ContactPoint.value [ fhir:value "http://www.hl7.org/Special/committees/cgp" ]
      ]
   ] ;
   fhir:ValueSet.description [ fhir:value "Used as the answer options for the birth sex question in the SOGI and Relationship Status Section, capturing the sex a patient was assigned at birth. Based on SNOMED CT and US Core Birth Sex Value Set"] ;
@@ -77,8 +77,9 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://ahip.org/demographics/ValueSet/ahip-birth-sex.ttl> a owl:Ontology ;
-  owl:imports fhir:fhir.ttl .
+<http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-birth-sex.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl ;
+  owl:versionIRI <http://build.fhir.org/us/demographic-collect/ValueSet/ahip-birth-sex.ttl> .
 
 # -------------------------------------------------------------------------------------
 

@@ -1,58 +1,58 @@
 AhipDemoIG : Validation Results
 =========================================
 
-err = 0, warn = 32, info = 32, broken links = 0
+err = 28, warn = 0, info = 32, broken links = 0
 $--
-Generated $--. FHIR version $-- for ahip.demo#$-- (canonical = http://ahip.org/demographics)
- Build Errors : 0 / 3 / 0
- /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/CodeSystem-ahip-demo-additional-nullFlavor : 0 / 1 / 1
- /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/CodeSystem-ahip-demo-disability-codes : 0 / 1 / 1
- /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/CodeSystem-ahip-demo-temporary-codes : 0 / 1 / 1
+Generated $--. FHIR version $-- for ahip.demo#$-- (canonical = http://hl7.org/fhir/us/demographic-collect)
+ Build Errors : 0 / 0 / 0
+ /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/CodeSystem-ahip-demo-additional-nullFlavor : 1 / 0 / 2
+ /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/CodeSystem-ahip-demo-disability-codes : 1 / 0 / 2
+ /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/CodeSystem-ahip-demo-temporary-codes : 1 / 0 / 2
  /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ImplementationGuide-ahip.demo : 0 / 0 / 2
- /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/Questionnaire-AHIPDemoQuestionnaire : 0 / 1 / 29
- /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-background-asian-category : 0 / 1 / 6
- /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-background-black-category : 0 / 1 / 3
- /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-background-latino-category : 0 / 1 / 6
- /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-background-middle-eastern-category : 0 / 1 / 3
- /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-background-native-american-category : 0 / 1 / 11
- /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-background-native-hawaiian-category : 0 / 1 / 3
- /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-background-white-category : 0 / 1 / 3
- /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-birth-sex : 0 / 1 / 4
- /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-care-consideration : 0 / 1 / 1
- /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-demo-gender-identity : 0 / 1 / 4
- /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-disability : 0 / 1 / 3
- /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-interpreter-modes : 0 / 1 / 4
- /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-military-service-period : 0 / 1 / 1
- /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-outreach-mode : 0 / 1 / 5
- /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-preferred-pronouns : 0 / 1 / 8
- /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-race-category : 0 / 1 / 7
- /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-reading-language-prereferences : 0 / 1 / 19
- /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-relationship-status : 0 / 1 / 7
- /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-religion-christian-detail : 0 / 1 / 8
- /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-religion-jewish-detail : 0 / 1 / 1
- /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-religion-spirituality : 0 / 1 / 14
- /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-sexual-orientation : 0 / 1 / 4
- /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-speaking-language-prereferences : 0 / 1 / 18
- /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-yes-no-dont-know-no-response : 0 / 1 / 3
- /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-yes-no-no-response : 0 / 1 / 1
+ /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/Questionnaire-AHIPDemoQuestionnaire : 0 / 0 / 29
+ /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-background-asian-category : 1 / 0 / 6
+ /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-background-black-category : 1 / 0 / 3
+ /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-background-latino-category : 1 / 0 / 6
+ /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-background-middle-eastern-category : 1 / 0 / 3
+ /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-background-native-american-category : 1 / 0 / 11
+ /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-background-native-hawaiian-category : 1 / 0 / 3
+ /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-background-white-category : 1 / 0 / 3
+ /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-birth-sex : 1 / 0 / 4
+ /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-care-consideration : 1 / 0 / 1
+ /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-demo-gender-identity : 1 / 0 / 8
+ /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-disability : 1 / 0 / 3
+ /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-interpreter-modes : 1 / 0 / 4
+ /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-military-service-period : 1 / 0 / 1
+ /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-outreach-mode : 1 / 0 / 5
+ /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-preferred-pronouns : 1 / 0 / 8
+ /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-race-category : 1 / 0 / 7
+ /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-reading-language-prereferences : 1 / 0 / 19
+ /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-relationship-status : 1 / 0 / 7
+ /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-religion-christian-detail : 1 / 0 / 8
+ /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-religion-jewish-detail : 1 / 0 / 1
+ /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-religion-spirituality : 1 / 0 / 14
+ /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-sexual-orientation : 1 / 0 / 8
+ /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-speaking-language-prereferences : 1 / 0 / 18
+ /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-yes-no-dont-know-no-response : 1 / 0 / 3
+ /Users/diego/Dropbox/SID/AHIP/DemoQuestionnaireIG/AhipDemoIG/fsh-generated/resources/ValueSet-ahip-yes-no-no-response : 1 / 0 / 1
 </table>
 
 == n/a ==
-WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
-WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
-WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
 
 
 == fsh-generated/resources/CodeSystem-ahip-demo-additional-nullFlavor.json ==
-WARNING: Resource: The resource CodeSystem/ahip-demo-additional-nullFlavor should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+INFORMATION: CodeSystem/ahip-demo-additional-nullFlavor: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
+ERROR: Resource: The resource CodeSystem/ahip-demo-additional-nullFlavor must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 
 == fsh-generated/resources/CodeSystem-ahip-demo-disability-codes.json ==
-WARNING: Resource: The resource CodeSystem/ahip-demo-disability-codes should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+INFORMATION: CodeSystem/ahip-demo-disability-codes: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
+ERROR: Resource: The resource CodeSystem/ahip-demo-disability-codes must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 
 == fsh-generated/resources/CodeSystem-ahip-demo-temporary-codes.json ==
-WARNING: Resource: The resource CodeSystem/ahip-demo-temporary-codes should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+INFORMATION: CodeSystem/ahip-demo-temporary-codes: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
+ERROR: Resource: The resource CodeSystem/ahip-demo-temporary-codes must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 
 == fsh-generated/resources/ImplementationGuide-ahip.demo.json ==
@@ -88,109 +88,105 @@ INFORMATION: Questionnaire/AHIPDemoQuestionnaire: Questionnaire.item[5].item[0].
 INFORMATION: Questionnaire/AHIPDemoQuestionnaire: Questionnaire.item[5].item[1].extension[0].value.ofType(CodeableConcept): Reference to draft CodeSystem http://hl7.org/fhir/questionnaire-item-control|4.0.1
 INFORMATION: Questionnaire/AHIPDemoQuestionnaire: Questionnaire.item[5].item[2].extension[0].value.ofType(CodeableConcept): Reference to draft CodeSystem http://hl7.org/fhir/questionnaire-item-control|4.0.1
 INFORMATION: Questionnaire/AHIPDemoQuestionnaire: Questionnaire.item[5].item[3].extension[0].value.ofType(CodeableConcept): Reference to draft CodeSystem http://hl7.org/fhir/questionnaire-item-control|4.0.1
-WARNING: Questionnaire/AHIPDemoQuestionnaire: Questionnaire: Constraint failed: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
 
 
 == fsh-generated/resources/ValueSet-ahip-background-asian-category.json ==
-WARNING: Resource: The resource ValueSet/ahip-background-asian-category should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+ERROR: Resource: The resource ValueSet/ahip-background-asian-category must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 
 == fsh-generated/resources/ValueSet-ahip-background-black-category.json ==
-WARNING: Resource: The resource ValueSet/ahip-background-black-category should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+ERROR: Resource: The resource ValueSet/ahip-background-black-category must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 
 == fsh-generated/resources/ValueSet-ahip-background-latino-category.json ==
-WARNING: Resource: The resource ValueSet/ahip-background-latino-category should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+ERROR: Resource: The resource ValueSet/ahip-background-latino-category must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 
 == fsh-generated/resources/ValueSet-ahip-background-middle-eastern-category.json ==
-WARNING: Resource: The resource ValueSet/ahip-background-middle-eastern-category should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+ERROR: Resource: The resource ValueSet/ahip-background-middle-eastern-category must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 
 == fsh-generated/resources/ValueSet-ahip-background-native-american-category.json ==
-WARNING: Resource: The resource ValueSet/ahip-background-native-american-category should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+ERROR: Resource: The resource ValueSet/ahip-background-native-american-category must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 
 == fsh-generated/resources/ValueSet-ahip-background-native-hawaiian-category.json ==
-WARNING: Resource: The resource ValueSet/ahip-background-native-hawaiian-category should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+ERROR: Resource: The resource ValueSet/ahip-background-native-hawaiian-category must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 
 == fsh-generated/resources/ValueSet-ahip-background-white-category.json ==
-WARNING: Resource: The resource ValueSet/ahip-background-white-category should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+ERROR: Resource: The resource ValueSet/ahip-background-white-category must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 
 == fsh-generated/resources/ValueSet-ahip-birth-sex.json ==
-INFORMATION: ValueSet/ahip-birth-sex: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system 'http://snomed.info/sct' is not known, and no terminology service supports it
-WARNING: Resource: The resource ValueSet/ahip-birth-sex should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+ERROR: Resource: The resource ValueSet/ahip-birth-sex must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 
 == fsh-generated/resources/ValueSet-ahip-care-consideration.json ==
-WARNING: Resource: The resource ValueSet/ahip-care-consideration should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+ERROR: Resource: The resource ValueSet/ahip-care-consideration must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 
 == fsh-generated/resources/ValueSet-ahip-demo-gender-identity.json ==
-INFORMATION: ValueSet/ahip-demo-gender-identity: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system 'http://snomed.info/sct' is not known, and no terminology service supports it
-WARNING: Resource: The resource ValueSet/ahip-demo-gender-identity should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+ERROR: Resource: The resource ValueSet/ahip-demo-gender-identity must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 
 == fsh-generated/resources/ValueSet-ahip-disability.json ==
-WARNING: Resource: The resource ValueSet/ahip-disability should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+ERROR: Resource: The resource ValueSet/ahip-disability must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 
 == fsh-generated/resources/ValueSet-ahip-interpreter-modes.json ==
-WARNING: Resource: The resource ValueSet/ahip-interpreter-modes should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+ERROR: Resource: The resource ValueSet/ahip-interpreter-modes must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 
 == fsh-generated/resources/ValueSet-ahip-military-service-period.json ==
-WARNING: Resource: The resource ValueSet/ahip-military-service-period should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+ERROR: Resource: The resource ValueSet/ahip-military-service-period must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 
 == fsh-generated/resources/ValueSet-ahip-outreach-mode.json ==
-WARNING: Resource: The resource ValueSet/ahip-outreach-mode should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+ERROR: Resource: The resource ValueSet/ahip-outreach-mode must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 
 == fsh-generated/resources/ValueSet-ahip-preferred-pronouns.json ==
-WARNING: Resource: The resource ValueSet/ahip-preferred-pronouns should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+ERROR: Resource: The resource ValueSet/ahip-preferred-pronouns must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 
 == fsh-generated/resources/ValueSet-ahip-race-category.json ==
-WARNING: Resource: The resource ValueSet/ahip-race-category should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+ERROR: Resource: The resource ValueSet/ahip-race-category must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 
 == fsh-generated/resources/ValueSet-ahip-reading-language-prereferences.json ==
-WARNING: Resource: The resource ValueSet/ahip-reading-language-prereferences should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+ERROR: Resource: The resource ValueSet/ahip-reading-language-prereferences must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 
 == fsh-generated/resources/ValueSet-ahip-relationship-status.json ==
-WARNING: Resource: The resource ValueSet/ahip-relationship-status should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+ERROR: Resource: The resource ValueSet/ahip-relationship-status must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 
 == fsh-generated/resources/ValueSet-ahip-religion-christian-detail.json ==
-WARNING: Resource: The resource ValueSet/ahip-religion-christian-detail should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+ERROR: Resource: The resource ValueSet/ahip-religion-christian-detail must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 
 == fsh-generated/resources/ValueSet-ahip-religion-jewish-detail.json ==
-WARNING: Resource: The resource ValueSet/ahip-religion-jewish-detail should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+ERROR: Resource: The resource ValueSet/ahip-religion-jewish-detail must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 
 == fsh-generated/resources/ValueSet-ahip-religion-spirituality.json ==
-WARNING: Resource: The resource ValueSet/ahip-religion-spirituality should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+ERROR: Resource: The resource ValueSet/ahip-religion-spirituality must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 
 == fsh-generated/resources/ValueSet-ahip-sexual-orientation.json ==
-INFORMATION: ValueSet/ahip-sexual-orientation: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system 'http://snomed.info/sct' is not known, and no terminology service supports it
-WARNING: Resource: The resource ValueSet/ahip-sexual-orientation should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+ERROR: Resource: The resource ValueSet/ahip-sexual-orientation must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 
 == fsh-generated/resources/ValueSet-ahip-speaking-language-prereferences.json ==
-WARNING: Resource: The resource ValueSet/ahip-speaking-language-prereferences should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+ERROR: Resource: The resource ValueSet/ahip-speaking-language-prereferences must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 
 == fsh-generated/resources/ValueSet-ahip-yes-no-dont-know-no-response.json ==
-WARNING: Resource: The resource ValueSet/ahip-yes-no-dont-know-no-response should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+ERROR: Resource: The resource ValueSet/ahip-yes-no-dont-know-no-response must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 
 == fsh-generated/resources/ValueSet-ahip-yes-no-no-response.json ==
-WARNING: Resource: The resource ValueSet/ahip-yes-no-no-response should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+ERROR: Resource: The resource ValueSet/ahip-yes-no-no-response must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 

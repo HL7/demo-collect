@@ -2,9 +2,37 @@
 
 ## Intellectual Property Considerations
 
-This Implementation Guide may contain or reference intellectual property owned by third parties ("Third Party IP"). Implementers and testers of this specification **SHALL** comply with the license requirements for each terminology or other artifact they use.
+This publication includes IP covered under the following statements.
 
-Terminology and other IP licenses **SHALL** be obtained from the relevant Third-Party IP owner for each code system, value set, or other artifact used. It is the sole responsibility of each organization deploying or testing this specification to ensure that its implementations comply with all applicable Third-Party IP and licensing requirements.
+* Most of the information on the CDC and ATSDR websites is not subject to copyright, is in the public domain, and may be freely used or reproduced without obtaining copyright permission.For information and exceptions regarding use of CDC material please see [https://www.cdc.gov/other/agencymaterials.html](https://www.cdc.gov/other/agencymaterials.html).
+
+* [CDC Race and Ethnicity](http://terminology.hl7.org/6.5.0/CodeSystem-CDCREC.html): [AHIPBackgroundAsianCategories](ValueSet-ahip-background-asian-category.md), [AHIPBackgroundBlackCategories](ValueSet-ahip-background-black-category.md)... Show 7 more, [AHIPBackgroundLatinoCategories](ValueSet-ahip-background-latino-category.md), [AHIPBackgroundMiddleEasternCategories](ValueSet-ahip-background-middle-eastern-category.md), [AHIPBackgroundNativeAmericanCategories](ValueSet-ahip-background-native-american-category.md), [AHIPBackgroundNativeHawaiianCategories](ValueSet-ahip-background-native-hawaiian-category.md), [AHIPBackgroundWhiteCategories](ValueSet-ahip-background-white-category.md), [AHIPDemographicQuestionnaire](Questionnaire-AHIPDemoQuestionnaire.md) and [AHIPRaceEtnicityCategories](ValueSet-ahip-race-category.md)
+
+
+* This material contains content from [LOINC](http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the [license](http://loinc.org/license). LOINC® is a registered United States trademark of Regenstrief Institute, Inc.
+
+* [LOINC](http://terminology.hl7.org/6.5.0/CodeSystem-v3-loinc.html): [AHIPDemoYesNoDontKnowNoResponse](ValueSet-ahip-yes-no-dont-know-no-response.md), [AHIPDemoYesNoNoResponse](ValueSet-ahip-yes-no-no-response.md), [AHIPDemographicQuestionnaire](Questionnaire-AHIPDemoQuestionnaire.md), [AHIPDisability](ValueSet-ahip-disability.md) and [AHIPPreferredPronouns](ValueSet-ahip-preferred-pronouns.md)
+
+
+* This material contains content that is copyright of SNOMED International. Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact [https://www.snomed.org/get-snomed](https://www.snomed.org/get-snomed) or [info@snomed.org](mailto:info@snomed.org).
+
+* [SNOMED Clinical Terms&reg; (SNOMED CT&reg;)](http://hl7.org/fhir/R4/codesystem-snomedct.html): [AHIPBirthSex](ValueSet-ahip-birth-sex.md), [AHIPDemoGenderIdentityValueSet](ValueSet-ahip-demo-gender-identity.md), [AHIPDemographicQuestionnaire](Questionnaire-AHIPDemoQuestionnaire.md) and [AHIPSexualOrientation](ValueSet-ahip-sexual-orientation.md)
+
+
+* This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: [https://terminology.hl7.org/license.html](https://terminology.hl7.org/license.html)
+
+* [Care Consideration](http://terminology.hl7.org/7.4.0/CodeSystem-care-consideration.html): [AHIPCareConsideration](ValueSet-ahip-care-consideration.md) and [AHIPDemographicQuestionnaire](Questionnaire-AHIPDemoQuestionnaire.md)
+* [Reading Mode](http://terminology.hl7.org/7.4.0/CodeSystem-reading-mode.html): [AHIPDemographicQuestionnaire](Questionnaire-AHIPDemoQuestionnaire.md) and [AHIPReadingLanguagePreferences](ValueSet-ahip-reading-language-prereferences.md)
+* [US Military Service Period](http://terminology.hl7.org/7.4.0/CodeSystem-us-military-service-period.html): [AHIPDemographicQuestionnaire](Questionnaire-AHIPDemoQuestionnaire.md) and [AHIPMilitaryPeriod](ValueSet-ahip-military-service-period.md)
+* [MaritalStatus](http://terminology.hl7.org/7.4.0/CodeSystem-v3-MaritalStatus.html): [AHIPDemographicQuestionnaire](Questionnaire-AHIPDemoQuestionnaire.md) and [AHIPRelationshipStatus](ValueSet-ahip-relationship-status.md)
+* [NullFlavor](http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html): [AHIPBackgroundAsianCategories](ValueSet-ahip-background-asian-category.md), [AHIPBackgroundBlackCategories](ValueSet-ahip-background-black-category.md)... Show 17 more, [AHIPBackgroundLatinoCategories](ValueSet-ahip-background-latino-category.md), [AHIPBackgroundMiddleEasternCategories](ValueSet-ahip-background-middle-eastern-category.md), [AHIPBackgroundNativeAmericanCategories](ValueSet-ahip-background-native-american-category.md), [AHIPBackgroundNativeHawaiianCategories](ValueSet-ahip-background-native-hawaiian-category.md), [AHIPBackgroundWhiteCategories](ValueSet-ahip-background-white-category.md), [AHIPBirthSex](ValueSet-ahip-birth-sex.md), [AHIPDemoGenderIdentityValueSet](ValueSet-ahip-demo-gender-identity.md), [AHIPDemoYesNoDontKnowNoResponse](ValueSet-ahip-yes-no-dont-know-no-response.md), [AHIPDemographicQuestionnaire](Questionnaire-AHIPDemoQuestionnaire.md), [AHIPDisability](ValueSet-ahip-disability.md), [AHIPPreferredPronouns](ValueSet-ahip-preferred-pronouns.md), [AHIPRaceEtnicityCategories](ValueSet-ahip-race-category.md), [AHIPReadingLanguagePreferences](ValueSet-ahip-reading-language-prereferences.md), [AHIPRelationshipStatus](ValueSet-ahip-relationship-status.md), [AHIPReligionSpirituality](ValueSet-ahip-religion-spirituality.md), [AHIPSexualOrientation](ValueSet-ahip-sexual-orientation.md) and [AHIPSpeakingLanguagePreferences](ValueSet-ahip-speaking-language-prereferences.md)
+* [ParticipationMode](http://terminology.hl7.org/7.4.0/CodeSystem-v3-ParticipationMode.html): [AHIPDemographicQuestionnaire](Questionnaire-AHIPDemoQuestionnaire.md), [AHIPInterpreterModes](ValueSet-ahip-interpreter-modes.md) and [AHIPOutreachMode](ValueSet-ahip-outreach-mode.md)
+* [Religious Affiliation](http://terminology.hl7.org/7.4.0/CodeSystem-v3-ReligiousAffiliation.html): [AHIPDemographicQuestionnaire](Questionnaire-AHIPDemoQuestionnaire.md), [AHIPReligionChristianDetail](ValueSet-ahip-religion-christian-detail.md) and [AHIPReligionSpirituality](ValueSet-ahip-religion-spirituality.md)
+
+
+This Implementation Guide may contain or reference intellectual property owned by third parties ("Third Party IP"). Implementers and testers of this specification **must** comply with the license requirements for each terminology or other artifact they use.
+
+Terminology and other IP licenses **must** be obtained from the relevant Third-Party IP owner for each code system, value set, or other artifact used. It is the sole responsibility of each organization deploying or testing this specification to ensure that its implementations comply with all applicable Third-Party IP and licensing requirements.
 
 This publication is subject to **joint copyright** of America's Health Insurance Plans (AHIP) and Health Level Seven International (HL7). Demographic questions, response options, and related narrative content developed through the DEMo Initiative reflect the collaborative work of AHIP, Civitas Networks for Health, and HL7 stakeholders. Use and distribution of this Implementation Guide are subject to the applicable terms of AHIP and HL7.
 

@@ -9,17 +9,29 @@
   "resourceType" : "ImplementationGuide",
   "id" : "ahip.demo",
   "language" : "en",
-  "url" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "cgp"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1
+  }],
+  "url" : "http://hl7.org/fhir/us/demographic-collect/ImplementationGuide/ahip.demo",
   "version" : "0.1.0",
   "name" : "AhipDemoIG",
-  "status" : "draft",
-  "date" : "2026-10-28T11:16:26-03:00",
-  "publisher" : "AHIP",
+  "status" : "active",
+  "date" : "2026-11-04T22:55:30+00:00",
+  "publisher" : "HL7 International / Cross-Group Projects",
   "contact" : [{
-    "name" : "AHIP",
+    "name" : "HL7 International / Cross-Group Projects",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://ahip.org"
+      "value" : "http://www.hl7.org/Special/committees/cgp"
     }]
   }],
   "packageId" : "ahip.demo",
@@ -71,6 +83,17 @@
       {
         "url" : "value",
         "valueString" : "ci-build"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "path-history"
+      },
+      {
+        "url" : "value",
+        "valueString" : "http://hl7.org/fhir/us/demographic-collect/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -148,17 +171,6 @@
       {
         "url" : "value",
         "valueString" : "input/ignoreWarnings.txt"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "path-history"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://ahip.org/demographics/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -804,6 +816,10 @@
     }],
     "page" : {
       "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode" : "informative"
+      },
+      {
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
         "valueUrl" : "toc.html"
       }],
@@ -812,6 +828,10 @@
       "generation" : "html",
       "page" : [{
         "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+          "valueCode" : "informative"
+        },
+        {
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
           "valueUrl" : "index.html"
         }],
@@ -821,6 +841,10 @@
       },
       {
         "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+          "valueCode" : "informative"
+        },
+        {
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
           "valueUrl" : "background.html"
         }],
@@ -830,6 +854,10 @@
       },
       {
         "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+          "valueCode" : "informative"
+        },
+        {
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
           "valueUrl" : "intellectual-property.html"
         }],
@@ -839,15 +867,10 @@
       },
       {
         "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "conventions.html"
-        }],
-        "nameUrl" : "conventions.html",
-        "title" : "Conventions",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+          "valueCode" : "informative"
+        },
+        {
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
           "valueUrl" : "introduction.html"
         }],
@@ -857,6 +880,10 @@
       },
       {
         "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+          "valueCode" : "informative"
+        },
+        {
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
           "valueUrl" : "use-cases.html"
         }],
@@ -866,6 +893,10 @@
       },
       {
         "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+          "valueCode" : "informative"
+        },
+        {
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
           "valueUrl" : "supporting-specifications.html"
         }],
@@ -875,6 +906,10 @@
       },
       {
         "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+          "valueCode" : "informative"
+        },
+        {
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
           "valueUrl" : "projects-and-participants.html"
         }],
@@ -884,6 +919,10 @@
       },
       {
         "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+          "valueCode" : "informative"
+        },
+        {
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
           "valueUrl" : "security.html"
         }],
@@ -893,6 +932,10 @@
       },
       {
         "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+          "valueCode" : "informative"
+        },
+        {
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
           "valueUrl" : "support-menu.html"
         }],

@@ -20,18 +20,18 @@ There are currently no QuestionnaireResponse instances for this Questionnaire de
 {
   "resourceType" : "Questionnaire",
   "id" : "AHIPDemoQuestionnaire",
-  "url" : "http://ahip.org/demographics/Questionnaire/AHIPDemoQuestionnaire",
+  "url" : "http://hl7.org/fhir/us/demographic-collect/Questionnaire/AHIPDemoQuestionnaire",
   "version" : "0.1.0",
-  "name" : "AHIP-DEMOGRAPHIC-QUESTIONNAIRE",
+  "name" : "AHIPDemographicQuestionnaire",
   "title" : "AHIP CIVITAS DEMO QUESTIONNAIRE",
   "status" : "draft",
   "date" : "2025-02-19",
-  "publisher" : "AHIP",
+  "publisher" : "HL7 International / Cross-Group Projects",
   "contact" : [{
-    "name" : "AHIP",
+    "name" : "HL7 International / Cross-Group Projects",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://ahip.org"
+      "value" : "http://www.hl7.org/Special/committees/cgp"
     }]
   }],
   "description" : "DRAFT QUESTIONNAIRE FOR AHIP - DRAFT VERSION FOR DISCUSSION ONLY",
@@ -69,7 +69,7 @@ There are currently no QuestionnaireResponse instances for this Questionnaire de
       "type" : "choice",
       "required" : true,
       "repeats" : true,
-      "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-race-category"
+      "answerValueSet" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-race-category"
     },
     {
       "extension" : [{
@@ -100,7 +100,7 @@ There are currently no QuestionnaireResponse instances for this Questionnaire de
       }],
       "required" : true,
       "repeats" : true,
-      "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-background-native-american-category"
+      "answerValueSet" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-background-native-american-category"
     },
     {
       "extension" : [{
@@ -131,7 +131,7 @@ There are currently no QuestionnaireResponse instances for this Questionnaire de
       }],
       "required" : true,
       "repeats" : true,
-      "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-background-asian-category"
+      "answerValueSet" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-background-asian-category"
     },
     {
       "extension" : [{
@@ -162,7 +162,7 @@ There are currently no QuestionnaireResponse instances for this Questionnaire de
       }],
       "required" : true,
       "repeats" : true,
-      "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-background-black-category"
+      "answerValueSet" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-background-black-category"
     },
     {
       "extension" : [{
@@ -194,7 +194,7 @@ There are currently no QuestionnaireResponse instances for this Questionnaire de
       "enableBehavior" : "all",
       "required" : true,
       "repeats" : true,
-      "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-background-latino-category"
+      "answerValueSet" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-background-latino-category"
     },
     {
       "extension" : [{
@@ -225,7 +225,7 @@ There are currently no QuestionnaireResponse instances for this Questionnaire de
       }],
       "required" : true,
       "repeats" : true,
-      "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-background-middle-eastern-category"
+      "answerValueSet" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-background-middle-eastern-category"
     },
     {
       "extension" : [{
@@ -256,7 +256,7 @@ There are currently no QuestionnaireResponse instances for this Questionnaire de
       }],
       "required" : true,
       "repeats" : true,
-      "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-background-native-hawaiian-category"
+      "answerValueSet" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-background-native-hawaiian-category"
     },
     {
       "extension" : [{
@@ -287,7 +287,7 @@ There are currently no QuestionnaireResponse instances for this Questionnaire de
       }],
       "required" : true,
       "repeats" : true,
-      "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-background-white-category"
+      "answerValueSet" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-background-white-category"
     },
     {
       "linkId" : "RAE1.3",
@@ -321,7 +321,7 @@ There are currently no QuestionnaireResponse instances for this Questionnaire de
       "type" : "open-choice",
       "required" : true,
       "repeats" : true,
-      "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-speaking-language-prereferences"
+      "answerValueSet" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-speaking-language-prereferences"
     },
     {
       "extension" : [{
@@ -344,7 +344,7 @@ There are currently no QuestionnaireResponse instances for this Questionnaire de
       "type" : "open-choice",
       "required" : true,
       "repeats" : true,
-      "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-reading-language-prereferences"
+      "answerValueSet" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-reading-language-prereferences"
     },
     {
       "extension" : [{
@@ -362,7 +362,7 @@ There are currently no QuestionnaireResponse instances for this Questionnaire de
       "text" : "If an interpreter in your preferred language were available right now, would you choose to use one for your health care visit?",
       "type" : "open-choice",
       "required" : true,
-      "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-yes-no-no-response"
+      "answerValueSet" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-yes-no-no-response"
     },
     {
       "extension" : [{
@@ -381,7 +381,7 @@ There are currently no QuestionnaireResponse instances for this Questionnaire de
       "type" : "choice",
       "required" : true,
       "repeats" : true,
-      "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-interpreter-modes"
+      "answerValueSet" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-interpreter-modes"
     },
     {
       "extension" : [{
@@ -400,7 +400,7 @@ There are currently no QuestionnaireResponse instances for this Questionnaire de
       "type" : "choice",
       "required" : true,
       "repeats" : true,
-      "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-outreach-mode"
+      "answerValueSet" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-outreach-mode"
     }]
   },
   {
@@ -429,7 +429,7 @@ There are currently no QuestionnaireResponse instances for this Questionnaire de
       "type" : "open-choice",
       "required" : true,
       "repeats" : false,
-      "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-sexual-orientation"
+      "answerValueSet" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-sexual-orientation"
     },
     {
       "extension" : [{
@@ -448,7 +448,7 @@ There are currently no QuestionnaireResponse instances for this Questionnaire de
       "type" : "choice",
       "required" : true,
       "repeats" : false,
-      "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-birth-sex"
+      "answerValueSet" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-birth-sex"
     },
     {
       "extension" : [{
@@ -471,7 +471,7 @@ There are currently no QuestionnaireResponse instances for this Questionnaire de
       "type" : "open-choice",
       "required" : true,
       "repeats" : false,
-      "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-demo-gender-identity"
+      "answerValueSet" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-demo-gender-identity"
     },
     {
       "extension" : [{
@@ -493,7 +493,7 @@ There are currently no QuestionnaireResponse instances for this Questionnaire de
       "text" : "Preferred Pronouns - Optional: We would like to be respectful. What pronouns do you use to identify yourself? Select all that apply.​",
       "type" : "open-choice",
       "repeats" : true,
-      "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-preferred-pronouns"
+      "answerValueSet" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-preferred-pronouns"
     },
     {
       "extension" : [{
@@ -515,7 +515,7 @@ There are currently no QuestionnaireResponse instances for this Questionnaire de
       "text" : "Optional: What is your relationship status? (Select all that apply)​",
       "type" : "open-choice",
       "repeats" : true,
-      "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-relationship-status"
+      "answerValueSet" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-relationship-status"
     }]
   },
   {
@@ -543,7 +543,7 @@ There are currently no QuestionnaireResponse instances for this Questionnaire de
       "text" : "Because of a physical or mental health condition, do you currently have difficulty with any of the following? Check all that apply.​",
       "type" : "open-choice",
       "repeats" : true,
-      "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-disability"
+      "answerValueSet" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-disability"
     }]
   },
   {
@@ -567,7 +567,7 @@ There are currently no QuestionnaireResponse instances for this Questionnaire de
       "text" : "Have you ever served in the United States Armed Forces, military Reserves, or National Guard? Select one.",
       "type" : "choice",
       "required" : true,
-      "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-yes-no-dont-know-no-response"
+      "answerValueSet" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-yes-no-dont-know-no-response"
     },
     {
       "extension" : [{
@@ -594,7 +594,7 @@ There are currently no QuestionnaireResponse instances for this Questionnaire de
       }],
       "enableBehavior" : "all",
       "repeats" : true,
-      "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-military-service-period"
+      "answerValueSet" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-military-service-period"
     },
     {
       "linkId" : "MS-5.3",
@@ -626,7 +626,7 @@ There are currently no QuestionnaireResponse instances for this Questionnaire de
       "text" : "Did an immediate family member who you live or lived with ever serve in the United States Armed Forces, military Reserves, or National Guard? (i.e., parent, guardian, spouse, partner, child, sibling etc.) Select one.​",
       "type" : "choice",
       "required" : false,
-      "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-yes-no-dont-know-no-response"
+      "answerValueSet" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-yes-no-dont-know-no-response"
     },
     {
       "linkId" : "MS-5.5",
@@ -648,7 +648,7 @@ There are currently no QuestionnaireResponse instances for this Questionnaire de
         "linkId" : "MS-5.5.1",
         "text" : "Are you serving or have you ever served in the armed forces of a country other than the United States? (Select one)​",
         "type" : "choice",
-        "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-yes-no-dont-know-no-response"
+        "answerValueSet" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-yes-no-dont-know-no-response"
       },
       {
         "linkId" : "MS-5.5.2",
@@ -694,7 +694,7 @@ There are currently no QuestionnaireResponse instances for this Questionnaire de
         "text" : "Do you live with, or have you ever lived with, someone who is currently or has ever served in the armed forces of a country other than the United States? (i.e., parent, guardian, spouse, partner, child, sibling etc.) (Select one)",
         "type" : "choice",
         "required" : false,
-        "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-yes-no-dont-know-no-response"
+        "answerValueSet" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-yes-no-dont-know-no-response"
       }]
     }]
   },
@@ -724,7 +724,7 @@ There are currently no QuestionnaireResponse instances for this Questionnaire de
       "type" : "open-choice",
       "required" : false,
       "repeats" : true,
-      "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-care-consideration"
+      "answerValueSet" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-care-consideration"
     },
     {
       "extension" : [{
@@ -747,7 +747,7 @@ There are currently no QuestionnaireResponse instances for this Questionnaire de
       "type" : "open-choice",
       "required" : false,
       "repeats" : true,
-      "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-religion-spirituality"
+      "answerValueSet" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-religion-spirituality"
     },
     {
       "extension" : [{
@@ -768,13 +768,13 @@ There are currently no QuestionnaireResponse instances for this Questionnaire de
         "question" : "SAOC-6.2",
         "operator" : "=",
         "answerCoding" : {
-          "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes",
+          "system" : "http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-temporary-codes",
           "code" : "CHRI"
         }
       }],
       "required" : false,
       "repeats" : true,
-      "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-religion-christian-detail"
+      "answerValueSet" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-religion-christian-detail"
     },
     {
       "extension" : [{
@@ -801,7 +801,7 @@ There are currently no QuestionnaireResponse instances for this Questionnaire de
       }],
       "required" : false,
       "repeats" : true,
-      "answerValueSet" : "http://ahip.org/demographics/ValueSet/ahip-religion-jewish-detail"
+      "answerValueSet" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-religion-jewish-detail"
     },
     {
       "linkId" : "SAOC-6.3",

@@ -4,6 +4,17 @@
 
 This Implementation Guide depends on and aligns with the following specifications and initiatives.
 
+
+
+
+
+
+
+
+### Cross Version Analysis
+
+This is an R4 IG. None of the features it uses are changed in R4B, so it can be used as is with R4B systems. Packages for both [R4 (ahip.demo.r4)](../package.r4.tgz) and [R4B (ahip.demo.r4b)](../package.r4b.tgz) are available.
+
 ### FHIR
 
 This Implementation Guide is based on **FHIR R4 (4.0.1)**. Readers should be familiar with FHIR's basic principles, resource and datatype model, and how to read FHIR specifications. Useful starting points:

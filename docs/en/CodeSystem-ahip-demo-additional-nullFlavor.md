@@ -51,19 +51,19 @@ This Code system is referenced in the definition of the following value sets:
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
     "valueCode" : "trial-use"
   }],
-  "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
+  "url" : "http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-additional-nullFlavor",
   "version" : "0.1.0",
   "name" : "AHIPDemoAdditionalNullFlavor",
   "title" : "AHIP Demo Additional NullFlavor",
   "status" : "active",
   "experimental" : false,
   "date" : "2026-08-25T00:00:00-04:00",
-  "publisher" : "AHIP",
+  "publisher" : "HL7 International / Cross-Group Projects",
   "contact" : [{
-    "name" : "AHIP",
+    "name" : "HL7 International / Cross-Group Projects",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://ahip.org"
+      "value" : "http://www.hl7.org/Special/committees/cgp"
     }]
   }],
   "description" : "An additional collection of codes specifying why a valid value is not present.",

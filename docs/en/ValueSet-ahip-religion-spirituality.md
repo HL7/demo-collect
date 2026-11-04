@@ -36,19 +36,19 @@
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
     "valueCode" : "trial-use"
   }],
-  "url" : "http://ahip.org/demographics/ValueSet/ahip-religion-spirituality",
+  "url" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-religion-spirituality",
   "version" : "0.1.0",
   "name" : "AHIPReligionSpirituality",
   "title" : "AHIP Religion/Spirituality Value Set",
   "status" : "active",
   "experimental" : false,
   "date" : "2026-08-25T00:00:00-04:00",
-  "publisher" : "AHIP",
+  "publisher" : "HL7 International / Cross-Group Projects",
   "contact" : [{
-    "name" : "AHIP",
+    "name" : "HL7 International / Cross-Group Projects",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://ahip.org"
+      "value" : "http://www.hl7.org/Special/committees/cgp"
     }]
   }],
   "description" : "Used as the answer options for the religion, spirituality, or belief system question in the Spirituality and Other Considerations Section.",
@@ -135,7 +135,7 @@
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes",
+      "system" : "http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-temporary-codes",
       "concept" : [{
         "code" : "BUDD",
         "display" : "Buddhism"
@@ -162,7 +162,7 @@
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
+      "system" : "http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-additional-nullFlavor",
       "concept" : [{
         "code" : "CNTR",
         "display" : "I choose not to respond at this time"

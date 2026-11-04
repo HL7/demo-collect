@@ -36,19 +36,19 @@
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
     "valueCode" : "trial-use"
   }],
-  "url" : "http://ahip.org/demographics/ValueSet/ahip-birth-sex",
+  "url" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-birth-sex",
   "version" : "0.1.0",
   "name" : "AHIPBirthSex",
   "title" : "AHIP Birth Sex",
   "status" : "active",
   "experimental" : false,
   "date" : "2026-08-25T00:00:00-04:00",
-  "publisher" : "AHIP",
+  "publisher" : "HL7 International / Cross-Group Projects",
   "contact" : [{
-    "name" : "AHIP",
+    "name" : "HL7 International / Cross-Group Projects",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://ahip.org"
+      "value" : "http://www.hl7.org/Special/committees/cgp"
     }]
   }],
   "description" : "Used as the answer options for the birth sex question in the SOGI and Relationship Status Section, capturing the sex a patient was assigned at birth. Based on SNOMED CT and US Core Birth Sex Value Set",

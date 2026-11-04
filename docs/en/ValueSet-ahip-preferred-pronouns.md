@@ -36,19 +36,19 @@
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
     "valueCode" : "trial-use"
   }],
-  "url" : "http://ahip.org/demographics/ValueSet/ahip-preferred-pronouns",
+  "url" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-preferred-pronouns",
   "version" : "0.1.0",
   "name" : "AHIPPreferredPronouns",
   "title" : "AHIP Preferred Pronouns",
   "status" : "active",
   "experimental" : false,
   "date" : "2026-08-25T00:00:00-04:00",
-  "publisher" : "AHIP",
+  "publisher" : "HL7 International / Cross-Group Projects",
   "contact" : [{
-    "name" : "AHIP",
+    "name" : "HL7 International / Cross-Group Projects",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://ahip.org"
+      "value" : "http://www.hl7.org/Special/committees/cgp"
     }]
   }],
   "description" : "Used as the answer options for the preferred pronouns question in the SOGI and Relationship Status Section, capturing the pronouns a patient uses to identify themselves. Based on LOINC",
@@ -78,7 +78,7 @@
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
+      "system" : "http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-additional-nullFlavor",
       "concept" : [{
         "code" : "UMN",
         "display" : "Use my name"

@@ -3,7 +3,7 @@
   "id" : "ahip-background-native-american-category",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-background-native-american-category</b></p><a name=\"ahip-background-native-american-category\"> </a><a name=\"hcahip-background-native-american-category\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-CDCREC.html\"><code>urn:oid:2.16.840.1.113883.6.238</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>1010-8</td><td>Apache</td></tr><tr><td>4111-1</td><td>Aztec</td></tr><tr><td>1035-5</td><td>Blackfeet</td></tr><tr><td>1088-4</td><td>Cherokee</td></tr><tr><td>1102-3</td><td>Cheyenne</td></tr><tr><td>1123-9</td><td>Chippewa</td></tr><tr><td>1155-1</td><td>Choctaw</td></tr><tr><td>3109-6</td><td>Comanche</td></tr><tr><td>3745-7</td><td>Inupiat</td></tr><tr><td>1340-9</td><td>Lumbee</td></tr><tr><td>1833-3</td><td>Lingít (Tlingit)</td></tr><tr><td>4185-5</td><td>Maya</td></tr><tr><td>3321-7</td><td>Navajo</td></tr><tr><td>1407-6</td><td>Osage</td></tr><tr><td>1609-7</td><td>Sioux</td></tr><tr><td>4178-0</td><td>Taino</td></tr><tr><td>1896-0</td><td>Yup'ik Eskimo</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-ahip-demo-temporary-codes.html\"><code>http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-1\">9999-1</a></td><td>Athabascan</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-2\">9999-2</a></td><td>Haudenosaunee</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-4\">9999-4</a></td><td>Muscogee (Eastern, Lower, Star Clan)</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><span title=\"Version is explicitly stated to be 4.0.0\"> version &#x1F4CD;4.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU\">ASKU</a></td><td>I don't know</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html\"><code>http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html#ahip-demo-additional-nullFlavor-CNTR\">CNTR</a></td><td>I choose not to respond at this time</td><td>This code is to represent explicitly that the patient has chosen not to respond to this question at this time.</td></tr></table></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-background-native-american-category</b></p><a name=\"ahip-background-native-american-category\"> </a><a name=\"hcahip-background-native-american-category\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-CDCREC.html\"><code>urn:oid:2.16.840.1.113883.6.238</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>1010-8</td><td>Apache</td></tr><tr><td>4111-1</td><td>Aztec</td></tr><tr><td>1035-5</td><td>Blackfeet</td></tr><tr><td>1088-4</td><td>Cherokee</td></tr><tr><td>1102-3</td><td>Cheyenne</td></tr><tr><td>1123-9</td><td>Chippewa</td></tr><tr><td>1155-1</td><td>Choctaw</td></tr><tr><td>3109-6</td><td>Comanche</td></tr><tr><td>3745-7</td><td>Inupiat</td></tr><tr><td>1340-9</td><td>Lumbee</td></tr><tr><td>1833-3</td><td>Lingít (Tlingit)</td></tr><tr><td>4185-5</td><td>Maya</td></tr><tr><td>3321-7</td><td>Navajo</td></tr><tr><td>1407-6</td><td>Osage</td></tr><tr><td>1609-7</td><td>Sioux</td></tr><tr><td>4178-0</td><td>Taino</td></tr><tr><td>1896-0</td><td>Yup'ik Eskimo</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-ahip-demo-temporary-codes.html\"><code>http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-temporary-codes</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-1\">9999-1</a></td><td>Athabascan</td><td>Self-identified Athabascan background. Temporary code expected to move to CDCREC.</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-2\">9999-2</a></td><td>Haudenosaunee</td><td>Self-identified Haudenosaunee background. Temporary code expected to move to CDCREC.</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-4\">9999-4</a></td><td>Muscogee (Eastern, Lower, Star Clan)</td><td>Self-identified Muscogee background, including Eastern, Lower, and Star Clan. Temporary code expected to move to CDCREC.</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><span title=\"Version is explicitly stated to be 4.0.0\"> version &#x1F4CD;4.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU\">ASKU</a></td><td>I don't know</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html\"><code>http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-additional-nullFlavor</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html#ahip-demo-additional-nullFlavor-CNTR\">CNTR</a></td><td>I choose not to respond at this time</td><td>This code is to represent explicitly that the patient has chosen not to respond to this question at this time.</td></tr></table></li></ul></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
@@ -17,19 +17,19 @@
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
     "valueCode" : "trial-use"
   }],
-  "url" : "http://ahip.org/demographics/ValueSet/ahip-background-native-american-category",
+  "url" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-background-native-american-category",
   "version" : "0.1.0",
   "name" : "AHIPBackgroundNativeAmericanCategories",
   "title" : "AHIP Native American Background Categories",
   "status" : "active",
   "experimental" : false,
   "date" : "2026-08-25T00:00:00-04:00",
-  "publisher" : "AHIP",
+  "publisher" : "HL7 International / Cross-Group Projects",
   "contact" : [{
-    "name" : "AHIP",
+    "name" : "HL7 International / Cross-Group Projects",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://ahip.org"
+      "value" : "http://www.hl7.org/Special/committees/cgp"
     }]
   }],
   "description" : "Used as the granular follow-up answer options shown when the patient selects Native American, Alaska Native, or Indigenous on the race/ethnicity question.",
@@ -107,7 +107,7 @@
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes",
+      "system" : "http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-temporary-codes",
       "concept" : [{
         "code" : "9999-1",
         "display" : "Athabascan"
@@ -130,7 +130,7 @@
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
+      "system" : "http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-additional-nullFlavor",
       "concept" : [{
         "code" : "CNTR",
         "display" : "I choose not to respond at this time"

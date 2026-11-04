@@ -4,7 +4,7 @@
   "language" : "en",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-preferred-pronouns</b></p><a name=\"ahip-preferred-pronouns\"> </a><a name=\"hcahip-preferred-pronouns\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/LA29518-0/\">LA29518-0</a></td><td>He, him, his</td></tr><tr><td><a href=\"https://loinc.org/LA29519-8/\">LA29519-8</a></td><td>She, her, hers</td></tr><tr><td><a href=\"https://loinc.org/LA29520-6/\">LA29520-6</a></td><td>They, them, theirs (non-binary)</td></tr><tr><td><a href=\"https://loinc.org/LA29521-4/\">LA29521-4</a></td><td>Ze, hir, hirs (non-binary)</td></tr><tr><td><a href=\"https://loinc.org/LA29523-0/\">LA29523-0</a></td><td>Ze, zir, zirs (non-binary)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html\"><code>http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html#ahip-demo-additional-nullFlavor-UMN\">UMN</a></td><td>Use my name</td><td>This code is to represent explicitly that the patient do not want a pronoun to be used but instead use their name.</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html#ahip-demo-additional-nullFlavor-CNTR\">CNTR</a></td><td>I choose not to respond at this time</td><td>This code is to represent explicitly that the patient has chosen not to respond to this question at this time.</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><span title=\"Version is explicitly stated to be 4.0.0\"> version &#x1F4CD;4.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU\">ASKU</a></td><td>I don't know</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-preferred-pronouns</b></p><a name=\"ahip-preferred-pronouns\"> </a><a name=\"hcahip-preferred-pronouns\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/LA29518-0/\">LA29518-0</a></td><td>He, him, his</td></tr><tr><td><a href=\"https://loinc.org/LA29519-8/\">LA29519-8</a></td><td>She, her, hers</td></tr><tr><td><a href=\"https://loinc.org/LA29520-6/\">LA29520-6</a></td><td>They, them, theirs (non-binary)</td></tr><tr><td><a href=\"https://loinc.org/LA29521-4/\">LA29521-4</a></td><td>Ze, hir, hirs (non-binary)</td></tr><tr><td><a href=\"https://loinc.org/LA29523-0/\">LA29523-0</a></td><td>Ze, zir, zirs (non-binary)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html\"><code>http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-additional-nullFlavor</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html#ahip-demo-additional-nullFlavor-UMN\">UMN</a></td><td>Use my name</td><td>This code is to represent explicitly that the patient do not want a pronoun to be used but instead use their name.</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html#ahip-demo-additional-nullFlavor-CNTR\">CNTR</a></td><td>I choose not to respond at this time</td><td>This code is to represent explicitly that the patient has chosen not to respond to this question at this time.</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><span title=\"Version is explicitly stated to be 4.0.0\"> version &#x1F4CD;4.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU\">ASKU</a></td><td>I don't know</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li></ul></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
@@ -18,19 +18,19 @@
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
     "valueCode" : "trial-use"
   }],
-  "url" : "http://ahip.org/demographics/ValueSet/ahip-preferred-pronouns",
+  "url" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-preferred-pronouns",
   "version" : "0.1.0",
   "name" : "AHIPPreferredPronouns",
   "title" : "AHIP Preferred Pronouns",
   "status" : "active",
   "experimental" : false,
   "date" : "2026-08-25T00:00:00-04:00",
-  "publisher" : "AHIP",
+  "publisher" : "HL7 International / Cross-Group Projects",
   "contact" : [{
-    "name" : "AHIP",
+    "name" : "HL7 International / Cross-Group Projects",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://ahip.org"
+      "value" : "http://www.hl7.org/Special/committees/cgp"
     }]
   }],
   "description" : "Used as the answer options for the preferred pronouns question in the SOGI and Relationship Status Section, capturing the pronouns a patient uses to identify themselves. Based on LOINC",
@@ -60,7 +60,7 @@
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
+      "system" : "http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-additional-nullFlavor",
       "concept" : [{
         "code" : "UMN",
         "display" : "Use my name"

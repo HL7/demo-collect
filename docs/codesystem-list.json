@@ -1,6 +1,6 @@
 {
   "codeSystems" : [{
-    "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
+    "url" : "http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-additional-nullFlavor",
     "version" : "0.1.0",
     "status" : "active",
     "name" : "AHIPDemoAdditionalNullFlavor",
@@ -8,7 +8,7 @@
     "description" : "An additional collection of codes specifying why a valid value is not present."
   },
   {
-    "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-disability-codes",
+    "url" : "http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-disability-codes",
     "version" : "0.1.0",
     "status" : "active",
     "name" : "AHIPDemoDisabilityCodes",
@@ -16,7 +16,7 @@
     "description" : "AHIP-specific codes identifying functional difficulty categories used to determine disability status across activities of daily living."
   },
   {
-    "url" : "http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes",
+    "url" : "http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-temporary-codes",
     "version" : "0.1.0",
     "status" : "active",
     "name" : "AHIPDemoTemporaryCodes",

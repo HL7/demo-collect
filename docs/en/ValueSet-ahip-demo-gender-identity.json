@@ -4,7 +4,7 @@
   "language" : "en",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-demo-gender-identity</b></p><a name=\"ahip-demo-gender-identity\"> </a><a name=\"hcahip-demo-gender-identity\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is explicitly stated to be http://snomed.info/sct/731000124108\"> version &#x1F4CD;http://snomed.info/sct/731000124108</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/sct/731000124108/id/446151000124109\">446151000124109</a></td><td>Man</td></tr><tr><td><a href=\"http://snomed.info/sct/731000124108/id/446141000124107\">446141000124107</a></td><td>Woman</td></tr><tr><td><a href=\"http://snomed.info/sct/731000124108/id/911621000124109\">911621000124109</a></td><td>Transgender Man</td></tr><tr><td><a href=\"http://snomed.info/sct/731000124108/id/911581000124109\">911581000124109</a></td><td>Transgender Woman</td></tr><tr><td><a href=\"http://snomed.info/sct/731000124108/id/33791000087105\">33791000087105</a></td><td>Non-Binary (neither exclusively male nor female)</td></tr><tr><td><a href=\"http://snomed.info/sct/731000124108/id/911671000124105\">911671000124105</a></td><td>Gender Fluid (non-fixed gender identity that may change over time)</td></tr><tr><td><a href=\"http://snomed.info/sct/731000124108/id/911541000124103\">911541000124103</a></td><td>Two Spirit (a person who has both a masculine and feminine spirit, traditionally used in Native American/Alaskan Native communities)</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><span title=\"Version is explicitly stated to be 4.0.0\"> version &#x1F4CD;4.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU\">ASKU</a></td><td>I don't know</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html\"><code>http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html#ahip-demo-additional-nullFlavor-CNTR\">CNTR</a></td><td>I choose not to respond at this time</td><td>This code is to represent explicitly that the patient has chosen not to respond to this question at this time.</td></tr></table></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-demo-gender-identity</b></p><a name=\"ahip-demo-gender-identity\"> </a><a name=\"hcahip-demo-gender-identity\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is explicitly stated to be http://snomed.info/sct/731000124108\"> version &#x1F4CD;http://snomed.info/sct/731000124108</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/sct/731000124108/id/446151000124109\">446151000124109</a></td><td>Man</td></tr><tr><td><a href=\"http://snomed.info/sct/731000124108/id/446141000124107\">446141000124107</a></td><td>Woman</td></tr><tr><td><a href=\"http://snomed.info/sct/731000124108/id/911621000124109\">911621000124109</a></td><td>Transgender Man</td></tr><tr><td><a href=\"http://snomed.info/sct/731000124108/id/911581000124109\">911581000124109</a></td><td>Transgender Woman</td></tr><tr><td><a href=\"http://snomed.info/sct/731000124108/id/33791000087105\">33791000087105</a></td><td>Non-Binary (neither exclusively male nor female)</td></tr><tr><td><a href=\"http://snomed.info/sct/731000124108/id/911671000124105\">911671000124105</a></td><td>Gender Fluid (non-fixed gender identity that may change over time)</td></tr><tr><td><a href=\"http://snomed.info/sct/731000124108/id/911541000124103\">911541000124103</a></td><td>Two Spirit (a person who has both a masculine and feminine spirit, traditionally used in Native American/Alaskan Native communities)</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><span title=\"Version is explicitly stated to be 4.0.0\"> version &#x1F4CD;4.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU\">ASKU</a></td><td>I don't know</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html\"><code>http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-additional-nullFlavor</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html#ahip-demo-additional-nullFlavor-CNTR\">CNTR</a></td><td>I choose not to respond at this time</td><td>This code is to represent explicitly that the patient has chosen not to respond to this question at this time.</td></tr></table></li></ul></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
@@ -18,19 +18,19 @@
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
     "valueCode" : "trial-use"
   }],
-  "url" : "http://ahip.org/demographics/ValueSet/ahip-demo-gender-identity",
+  "url" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-demo-gender-identity",
   "version" : "0.1.0",
   "name" : "AHIPDemoGenderIdentityValueSet",
   "title" : "AHIP Gender Identity",
   "status" : "active",
   "experimental" : false,
   "date" : "2026-08-25T00:00:00-04:00",
-  "publisher" : "AHIP",
+  "publisher" : "HL7 International / Cross-Group Projects",
   "contact" : [{
-    "name" : "AHIP",
+    "name" : "HL7 International / Cross-Group Projects",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://ahip.org"
+      "value" : "http://www.hl7.org/Special/committees/cgp"
     }]
   }],
   "description" : "Used as the answer options for the gender question in the SOGI and Relationship Status Section, capturing a patient's gender identity. Based on the HL7 Gender Identity value set",
@@ -77,7 +77,7 @@
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
+      "system" : "http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-additional-nullFlavor",
       "concept" : [{
         "code" : "CNTR",
         "display" : "I choose not to respond at this time"

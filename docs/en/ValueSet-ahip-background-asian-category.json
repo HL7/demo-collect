@@ -4,7 +4,7 @@
   "language" : "en",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-background-asian-category</b></p><a name=\"ahip-background-asian-category\"> </a><a name=\"hcahip-background-asian-category\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-CDCREC.html\"><code>urn:oid:2.16.840.1.113883.6.238</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>2126-1</td><td>Afghan</td></tr><tr><td>2030-5</td><td>Bangladeshi</td></tr><tr><td>2032-1</td><td>Burmese</td></tr><tr><td>2033-9</td><td>Cambodian</td></tr><tr><td>2034-7</td><td>Chinese</td></tr><tr><td>2036-2</td><td>Filipino</td></tr><tr><td>2037-0</td><td>Hmong</td></tr><tr><td>2029-7</td><td>Indian</td></tr><tr><td>2038-8</td><td>Indonesian</td></tr><tr><td>2039-6</td><td>Japanese</td></tr><tr><td>2040-4</td><td>Korean</td></tr><tr><td>2041-2</td><td>Lao</td></tr><tr><td>2050-3</td><td>Nepalese</td></tr><tr><td>2044-6</td><td>Pakistani</td></tr><tr><td>2045-3</td><td>Sri Lankan</td></tr><tr><td>2046-1</td><td>Thai</td></tr><tr><td>2047-9</td><td>Vietnamese</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><span title=\"Version is explicitly stated to be 4.0.0\"> version &#x1F4CD;4.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU\">ASKU</a></td><td>I don't know</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html\"><code>http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html#ahip-demo-additional-nullFlavor-CNTR\">CNTR</a></td><td>I choose not to respond at this time</td><td>This code is to represent explicitly that the patient has chosen not to respond to this question at this time.</td></tr></table></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-background-asian-category</b></p><a name=\"ahip-background-asian-category\"> </a><a name=\"hcahip-background-asian-category\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-CDCREC.html\"><code>urn:oid:2.16.840.1.113883.6.238</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>2126-1</td><td>Afghan</td></tr><tr><td>2030-5</td><td>Bangladeshi</td></tr><tr><td>2032-1</td><td>Burmese</td></tr><tr><td>2033-9</td><td>Cambodian</td></tr><tr><td>2034-7</td><td>Chinese</td></tr><tr><td>2036-2</td><td>Filipino</td></tr><tr><td>2037-0</td><td>Hmong</td></tr><tr><td>2029-7</td><td>Indian</td></tr><tr><td>2038-8</td><td>Indonesian</td></tr><tr><td>2039-6</td><td>Japanese</td></tr><tr><td>2040-4</td><td>Korean</td></tr><tr><td>2041-2</td><td>Lao</td></tr><tr><td>2050-3</td><td>Nepalese</td></tr><tr><td>2044-6</td><td>Pakistani</td></tr><tr><td>2045-3</td><td>Sri Lankan</td></tr><tr><td>2046-1</td><td>Thai</td></tr><tr><td>2047-9</td><td>Vietnamese</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><span title=\"Version is explicitly stated to be 4.0.0\"> version &#x1F4CD;4.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU\">ASKU</a></td><td>I don't know</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html\"><code>http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-additional-nullFlavor</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html#ahip-demo-additional-nullFlavor-CNTR\">CNTR</a></td><td>I choose not to respond at this time</td><td>This code is to represent explicitly that the patient has chosen not to respond to this question at this time.</td></tr></table></li></ul></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
@@ -18,19 +18,19 @@
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
     "valueCode" : "trial-use"
   }],
-  "url" : "http://ahip.org/demographics/ValueSet/ahip-background-asian-category",
+  "url" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-background-asian-category",
   "version" : "0.1.0",
   "name" : "AHIPBackgroundAsianCategories",
   "title" : "AHIP Asian Background Categories",
   "status" : "active",
   "experimental" : false,
   "date" : "2026-08-25T00:00:00-04:00",
-  "publisher" : "AHIP",
+  "publisher" : "HL7 International / Cross-Group Projects",
   "contact" : [{
-    "name" : "AHIP",
+    "name" : "HL7 International / Cross-Group Projects",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://ahip.org"
+      "value" : "http://www.hl7.org/Special/committees/cgp"
     }]
   }],
   "description" : "Used as the granular follow-up answer options shown when the patient selects Asian or Asian American on the race/ethnicity question.",
@@ -116,7 +116,7 @@
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
+      "system" : "http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-additional-nullFlavor",
       "concept" : [{
         "code" : "CNTR",
         "display" : "I choose not to respond at this time"

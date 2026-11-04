@@ -1,20 +1,20 @@
 {
-  "url" : "http://ahip.org/demographics/ImplementationGuide/ahip.demo",
+  "url" : "http://hl7.org/fhir/us/demographic-collect/ImplementationGuide/ahip.demo",
   "name" : "AhipDemoIG",
   "title" : null,
   "description" : "",
-  "status" : "draft",
+  "status" : "active",
   "package-id" : "ahip.demo",
   "ig-ver" : "0.1.0",
-  "date" : "Wed, 28 Oct, 2026 11:16:26 -0300",
-  "dateISO8601" : "2026-10-28T11:16:26-03:00",
-  "errs" : 0,
-  "warnings" : 32,
+  "date" : "Wed, 04 Nov, 2026 22:55:30 +0000",
+  "dateISO8601" : "2026-11-04T22:55:30+00:00",
+  "errs" : 28,
+  "warnings" : 0,
   "hints" : 32,
   "broken-links" : 0,
-  "suppressed-hints" : 119,
+  "suppressed-hints" : 130,
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "6.0.0-snapshot1 (3)",
-  "maxMemory" : 1523318128
+  "maxMemory" : 851293584
 }

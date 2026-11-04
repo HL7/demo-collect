@@ -3,7 +3,7 @@
   "id" : "ahip-background-latino-category",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-background-latino-category</b></p><a name=\"ahip-background-latino-category\"> </a><a name=\"hcahip-background-latino-category\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-CDCREC.html\"><code>urn:oid:2.16.840.1.113883.6.238</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>2166-7</td><td>Argentinian</td></tr><tr><td>2151-9</td><td>Chicano/a</td></tr><tr><td>2168-3</td><td>Chilean</td></tr><tr><td>2169-1</td><td>Colombian</td></tr><tr><td>2156-8</td><td>Costa Rican</td></tr><tr><td>2182-4</td><td>Cuban</td></tr><tr><td>2184-0</td><td>Dominican</td></tr><tr><td>2170-9</td><td>Ecuadorian</td></tr><tr><td>2157-6</td><td>Guatemalan</td></tr><tr><td>2158-4</td><td>Honduran</td></tr><tr><td>2148-5</td><td>Mexican</td></tr><tr><td>2159-2</td><td>Nicaraguan</td></tr><tr><td>2160-0</td><td>Panamanian</td></tr><tr><td>2172-5</td><td>Peruvian</td></tr><tr><td>2180-8</td><td>Puerto Rican</td></tr><tr><td>2161-8</td><td>Salvadoran</td></tr><tr><td>2137-8</td><td>Spanish</td></tr><tr><td>2174-1</td><td>Venezuelan</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-ahip-demo-temporary-codes.html\"><code>http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-12\">9999-12</a></td><td>Brazilian</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><span title=\"Version is explicitly stated to be 4.0.0\"> version &#x1F4CD;4.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU\">ASKU</a></td><td>I don't know</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html\"><code>http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html#ahip-demo-additional-nullFlavor-CNTR\">CNTR</a></td><td>I choose not to respond at this time</td><td>This code is to represent explicitly that the patient has chosen not to respond to this question at this time.</td></tr></table></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-background-latino-category</b></p><a name=\"ahip-background-latino-category\"> </a><a name=\"hcahip-background-latino-category\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-CDCREC.html\"><code>urn:oid:2.16.840.1.113883.6.238</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>2166-7</td><td>Argentinian</td></tr><tr><td>2151-9</td><td>Chicano/a</td></tr><tr><td>2168-3</td><td>Chilean</td></tr><tr><td>2169-1</td><td>Colombian</td></tr><tr><td>2156-8</td><td>Costa Rican</td></tr><tr><td>2182-4</td><td>Cuban</td></tr><tr><td>2184-0</td><td>Dominican</td></tr><tr><td>2170-9</td><td>Ecuadorian</td></tr><tr><td>2157-6</td><td>Guatemalan</td></tr><tr><td>2158-4</td><td>Honduran</td></tr><tr><td>2148-5</td><td>Mexican</td></tr><tr><td>2159-2</td><td>Nicaraguan</td></tr><tr><td>2160-0</td><td>Panamanian</td></tr><tr><td>2172-5</td><td>Peruvian</td></tr><tr><td>2180-8</td><td>Puerto Rican</td></tr><tr><td>2161-8</td><td>Salvadoran</td></tr><tr><td>2137-8</td><td>Spanish</td></tr><tr><td>2174-1</td><td>Venezuelan</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-ahip-demo-temporary-codes.html\"><code>http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-temporary-codes</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-12\">9999-12</a></td><td>Brazilian</td><td>Self-identified Brazilian background. Temporary code expected to move to CDCREC.</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><span title=\"Version is explicitly stated to be 4.0.0\"> version &#x1F4CD;4.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU\">ASKU</a></td><td>I don't know</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html\"><code>http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-additional-nullFlavor</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html#ahip-demo-additional-nullFlavor-CNTR\">CNTR</a></td><td>I choose not to respond at this time</td><td>This code is to represent explicitly that the patient has chosen not to respond to this question at this time.</td></tr></table></li></ul></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
@@ -17,19 +17,19 @@
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
     "valueCode" : "trial-use"
   }],
-  "url" : "http://ahip.org/demographics/ValueSet/ahip-background-latino-category",
+  "url" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-background-latino-category",
   "version" : "0.1.0",
   "name" : "AHIPBackgroundLatinoCategories",
   "title" : "AHIP Hispanic Latino Background Categories",
   "status" : "active",
   "experimental" : false,
   "date" : "2026-08-25T00:00:00-04:00",
-  "publisher" : "AHIP",
+  "publisher" : "HL7 International / Cross-Group Projects",
   "contact" : [{
-    "name" : "AHIP",
+    "name" : "HL7 International / Cross-Group Projects",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://ahip.org"
+      "value" : "http://www.hl7.org/Special/committees/cgp"
     }]
   }],
   "description" : "Used as the granular follow-up answer options shown when the patient selects Hispanic or Latino/a/e on the race/ethnicity question.",
@@ -111,7 +111,7 @@
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes",
+      "system" : "http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-temporary-codes",
       "concept" : [{
         "code" : "9999-12",
         "display" : "Brazilian"
@@ -126,7 +126,7 @@
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
+      "system" : "http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-additional-nullFlavor",
       "concept" : [{
         "code" : "CNTR",
         "display" : "I choose not to respond at this time"

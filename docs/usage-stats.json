@@ -11,14 +11,19 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm": [
       "CodeSystem",
+      "ImplementationGuide",
       "ValueSet"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
       "CodeSystem",
+      "ImplementationGuide",
+      "ImplementationGuide.definition.page",
+      "ImplementationGuide.definition.page.page",
       "ValueSet"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg": [
       "CodeSystem",
+      "ImplementationGuide",
       "ValueSet"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [

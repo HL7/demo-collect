@@ -5,13 +5,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://ahip.org/demographics/ValueSet/ahip-background-white-category> a fhir:ValueSet ;
+<http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-background-white-category> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:Resource.id [ fhir:value "ahip-background-white-category"] ;
   fhir:Resource.language [ fhir:value "en"] ;
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ] ;
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-background-white-category</b></p><a name=\"ahip-background-white-category\"> </a><a name=\"hcahip-background-white-category\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-CDCREC.html\"><code>urn:oid:2.16.840.1.113883.6.238</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>2110-5</td><td>English</td></tr><tr><td>2111-3</td><td>French</td></tr><tr><td>2112-1</td><td>German</td></tr><tr><td>2113-9</td><td>Irish</td></tr><tr><td>2114-7</td><td>Italian</td></tr><tr><td>2115-4</td><td>Polish</td></tr><tr><td>2116-2</td><td>Scottish</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-ahip-demo-temporary-codes.html\"><code>http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-20\">9999-20</a></td><td>Danish</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-21\">9999-21</a></td><td>Dutch</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-22\">9999-22</a></td><td>Greek</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-23\">9999-23</a></td><td>Jewish: Ashkenazi</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-24\">9999-24</a></td><td>Jewish: Sephardic</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-25\">9999-25</a></td><td>Lithuanian</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-26\">9999-26</a></td><td>Norwegian</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-27\">9999-27</a></td><td>Portuguese</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-28\">9999-28</a></td><td>Russian</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-29\">9999-29</a></td><td>Swedish</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-30\">9999-30</a></td><td>Ukrainian</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-31\">9999-31</a></td><td>Welsh</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><span title=\"Version is explicitly stated to be 4.0.0\"> version ?4.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU\">ASKU</a></td><td>I don't know</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html\"><code>http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html#ahip-demo-additional-nullFlavor-CNTR\">CNTR</a></td><td>I choose not to respond at this time</td><td>This code is to represent explicitly that the patient has chosen not to respond to this question at this time.</td></tr></table></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-background-white-category</b></p><a name=\"ahip-background-white-category\"> </a><a name=\"hcahip-background-white-category\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-CDCREC.html\"><code>urn:oid:2.16.840.1.113883.6.238</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>2110-5</td><td>English</td></tr><tr><td>2111-3</td><td>French</td></tr><tr><td>2112-1</td><td>German</td></tr><tr><td>2113-9</td><td>Irish</td></tr><tr><td>2114-7</td><td>Italian</td></tr><tr><td>2115-4</td><td>Polish</td></tr><tr><td>2116-2</td><td>Scottish</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-ahip-demo-temporary-codes.html\"><code>http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-temporary-codes</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-20\">9999-20</a></td><td>Danish</td><td>Self-identified Danish background. Temporary code expected to move to CDCREC.</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-21\">9999-21</a></td><td>Dutch</td><td>Self-identified Dutch background. Temporary code expected to move to CDCREC.</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-22\">9999-22</a></td><td>Greek</td><td>Self-identified Greek background. Temporary code expected to move to CDCREC.</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-23\">9999-23</a></td><td>Jewish: Ashkenazi</td><td>Self-identified Ashkenazi Jewish background. Temporary code expected to move to CDCREC.</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-24\">9999-24</a></td><td>Jewish: Sephardic</td><td>Self-identified Sephardic Jewish background. Temporary code expected to move to CDCREC.</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-25\">9999-25</a></td><td>Lithuanian</td><td>Self-identified Lithuanian background. Temporary code expected to move to CDCREC.</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-26\">9999-26</a></td><td>Norwegian</td><td>Self-identified Norwegian background. Temporary code expected to move to CDCREC.</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-27\">9999-27</a></td><td>Portuguese</td><td>Self-identified Portuguese background. Temporary code expected to move to CDCREC.</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-28\">9999-28</a></td><td>Russian</td><td>Self-identified Russian background. Temporary code expected to move to CDCREC.</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-29\">9999-29</a></td><td>Swedish</td><td>Self-identified Swedish background. Temporary code expected to move to CDCREC.</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-30\">9999-30</a></td><td>Ukrainian</td><td>Self-identified Ukrainian background. Temporary code expected to move to CDCREC.</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-31\">9999-31</a></td><td>Welsh</td><td>Self-identified Welsh background. Temporary code expected to move to CDCREC.</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><span title=\"Version is explicitly stated to be 4.0.0\"> version ?4.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU\">ASKU</a></td><td>I don't know</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html\"><code>http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-additional-nullFlavor</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html#ahip-demo-additional-nullFlavor-CNTR\">CNTR</a></td><td>I choose not to respond at this time</td><td>This code is to represent explicitly that the patient has chosen not to respond to this question at this time.</td></tr></table></li></ul></div>"
   ] ;
   fhir:DomainResource.extension [
      fhir:index -1 ;
@@ -26,21 +26,21 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ] ;
      fhir:Extension.valueCode [ fhir:value "trial-use" ]
   ] ;
-  fhir:ValueSet.url [ fhir:value "http://ahip.org/demographics/ValueSet/ahip-background-white-category"] ;
+  fhir:ValueSet.url [ fhir:value "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-background-white-category"] ;
   fhir:ValueSet.version [ fhir:value "0.1.0"] ;
   fhir:ValueSet.name [ fhir:value "AHIPBackgroundWhiteCategories"] ;
   fhir:ValueSet.title [ fhir:value "AHIP White Background Categories"] ;
   fhir:ValueSet.status [ fhir:value "active"] ;
   fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
   fhir:ValueSet.date [ fhir:value "2026-08-25T00:00:00-04:00"^^xsd:dateTime] ;
-  fhir:ValueSet.publisher [ fhir:value "AHIP"] ;
+  fhir:ValueSet.publisher [ fhir:value "HL7 International / Cross-Group Projects"] ;
   fhir:ValueSet.contact [
      fhir:index -1 ;
-     fhir:ContactDetail.name [ fhir:value "AHIP" ] ;
+     fhir:ContactDetail.name [ fhir:value "HL7 International / Cross-Group Projects" ] ;
      fhir:ContactDetail.telecom [
        fhir:index -1 ;
        fhir:ContactPoint.system [ fhir:value "url" ] ;
-       fhir:ContactPoint.value [ fhir:value "http://ahip.org" ]
+       fhir:ContactPoint.value [ fhir:value "http://www.hl7.org/Special/committees/cgp" ]
      ]
   ] ;
   fhir:ValueSet.description [ fhir:value "Used as the granular follow-up answer options shown when the patient selects White or European on the race/ethnicity question."] ;
@@ -80,7 +80,7 @@
        ]
      ], [
        fhir:index -1 ;
-       fhir:ValueSet.compose.include.system [ fhir:value "http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes" ] ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-temporary-codes" ] ;
        fhir:ValueSet.compose.include.concept [
          fhir:index -1 ;
          fhir:ValueSet.compose.include.concept.code [ fhir:value "9999-20" ] ;
@@ -141,7 +141,7 @@
        ]
      ], [
        fhir:index -1 ;
-       fhir:ValueSet.compose.include.system [ fhir:value "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor" ] ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-additional-nullFlavor" ] ;
        fhir:ValueSet.compose.include.concept [
          fhir:index -1 ;
          fhir:ValueSet.compose.include.concept.code [ fhir:value "CNTR" ] ;
@@ -152,8 +152,9 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://ahip.org/demographics/ValueSet/ahip-background-white-category.ttl> a owl:Ontology ;
-  owl:imports fhir:fhir.ttl .
+<http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-background-white-category.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl ;
+  owl:versionIRI <http://build.fhir.org/us/demographic-collect/ValueSet/ahip-background-white-category.ttl> .
 
 # -------------------------------------------------------------------------------------
 

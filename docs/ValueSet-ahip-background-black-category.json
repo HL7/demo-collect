@@ -3,7 +3,7 @@
   "id" : "ahip-background-black-category",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-background-black-category</b></p><a name=\"ahip-background-black-category\"> </a><a name=\"hcahip-background-black-category\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-CDCREC.html\"><code>urn:oid:2.16.840.1.113883.6.238</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>2058-6</td><td>African American</td></tr><tr><td>2068-5</td><td>Barbadian</td></tr><tr><td>2184-0</td><td>Dominican</td></tr><tr><td>2062-8</td><td>Ethiopian</td></tr><tr><td>2071-9</td><td>Haitian</td></tr><tr><td>2072-7</td><td>Jamaican</td></tr><tr><td>2063-6</td><td>Liberian</td></tr><tr><td>2065-1</td><td>Nigerian</td></tr><tr><td>4186-3</td><td>Somali</td></tr><tr><td>2074-3</td><td>Trinidadian</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-ahip-demo-temporary-codes.html\"><code>http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-5\">9999-5</a></td><td>Angolan</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-6\">9999-6</a></td><td>Cabo Verdean</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-7\">9999-7</a></td><td>Congolese</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-8\">9999-8</a></td><td>Ghanaian</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-9\">9999-9</a></td><td>Kenyan</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-10\">9999-10</a></td><td>Sudanese</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><span title=\"Version is explicitly stated to be 4.0.0\"> version &#x1F4CD;4.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU\">ASKU</a></td><td>I don't know</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html\"><code>http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html#ahip-demo-additional-nullFlavor-CNTR\">CNTR</a></td><td>I choose not to respond at this time</td><td>This code is to represent explicitly that the patient has chosen not to respond to this question at this time.</td></tr></table></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-background-black-category</b></p><a name=\"ahip-background-black-category\"> </a><a name=\"hcahip-background-black-category\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-CDCREC.html\"><code>urn:oid:2.16.840.1.113883.6.238</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>2058-6</td><td>African American</td></tr><tr><td>2068-5</td><td>Barbadian</td></tr><tr><td>2184-0</td><td>Dominican</td></tr><tr><td>2062-8</td><td>Ethiopian</td></tr><tr><td>2071-9</td><td>Haitian</td></tr><tr><td>2072-7</td><td>Jamaican</td></tr><tr><td>2063-6</td><td>Liberian</td></tr><tr><td>2065-1</td><td>Nigerian</td></tr><tr><td>4186-3</td><td>Somali</td></tr><tr><td>2074-3</td><td>Trinidadian</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-ahip-demo-temporary-codes.html\"><code>http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-temporary-codes</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-5\">9999-5</a></td><td>Angolan</td><td>Self-identified Angolan background. Temporary code expected to move to CDCREC.</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-6\">9999-6</a></td><td>Cabo Verdean</td><td>Self-identified Cabo Verdean background. Temporary code expected to move to CDCREC.</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-7\">9999-7</a></td><td>Congolese</td><td>Self-identified Congolese background. Temporary code expected to move to CDCREC.</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-8\">9999-8</a></td><td>Ghanaian</td><td>Self-identified Ghanaian background. Temporary code expected to move to CDCREC.</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-9\">9999-9</a></td><td>Kenyan</td><td>Self-identified Kenyan background. Temporary code expected to move to CDCREC.</td></tr><tr><td><a href=\"CodeSystem-ahip-demo-temporary-codes.html#ahip-demo-temporary-codes-9999-10\">9999-10</a></td><td>Sudanese</td><td>Self-identified Sudanese background. Temporary code expected to move to CDCREC.</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><span title=\"Version is explicitly stated to be 4.0.0\"> version &#x1F4CD;4.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU\">ASKU</a></td><td>I don't know</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html\"><code>http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-additional-nullFlavor</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html#ahip-demo-additional-nullFlavor-CNTR\">CNTR</a></td><td>I choose not to respond at this time</td><td>This code is to represent explicitly that the patient has chosen not to respond to this question at this time.</td></tr></table></li></ul></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
@@ -17,19 +17,19 @@
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
     "valueCode" : "trial-use"
   }],
-  "url" : "http://ahip.org/demographics/ValueSet/ahip-background-black-category",
+  "url" : "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-background-black-category",
   "version" : "0.1.0",
   "name" : "AHIPBackgroundBlackCategories",
   "title" : "AHIP Black Background Categories",
   "status" : "active",
   "experimental" : false,
   "date" : "2026-08-25T00:00:00-04:00",
-  "publisher" : "AHIP",
+  "publisher" : "HL7 International / Cross-Group Projects",
   "contact" : [{
-    "name" : "AHIP",
+    "name" : "HL7 International / Cross-Group Projects",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://ahip.org"
+      "value" : "http://www.hl7.org/Special/committees/cgp"
     }]
   }],
   "description" : "Used as the granular follow-up answer options shown when the patient selects Black, African, or African American on the race/ethnicity question.",
@@ -79,7 +79,7 @@
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes",
+      "system" : "http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-temporary-codes",
       "concept" : [{
         "code" : "9999-5",
         "display" : "Angolan"
@@ -114,7 +114,7 @@
       }]
     },
     {
-      "system" : "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor",
+      "system" : "http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-additional-nullFlavor",
       "concept" : [{
         "code" : "CNTR",
         "display" : "I choose not to respond at this time"

@@ -15,19 +15,19 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="trial-use"/>
   </extension>
-  <url value="http://ahip.org/demographics/ValueSet/ahip-military-service-period"/>
+  <url value="http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-military-service-period"/>
   <version value="0.1.0"/>
   <name value="AHIPMilitaryPeriod"/>
   <title value="AHIP US Military Service Period Codes"/>
   <status value="active"/>
   <experimental value="false"/>
   <date value="2026-08-25T00:00:00-04:00"/>
-  <publisher value="AHIP"/>
+  <publisher value="HL7 International / Cross-Group Projects"/>
   <contact>
-    <name value="AHIP"/>
+    <name value="HL7 International / Cross-Group Projects"/>
     <telecom>
       <system value="url"/>
-      <value value="http://ahip.org"/>
+      <value value="http://www.hl7.org/Special/committees/cgp"/>
     </telecom>
   </contact>
   <description value="Used as the answer options for the military service period question in the Military Service Section, capturing which U.S. military service period(s) a patient served in; only shown when the patient indicates they have served."/>

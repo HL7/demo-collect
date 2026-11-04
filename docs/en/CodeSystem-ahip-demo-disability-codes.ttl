@@ -5,13 +5,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://ahip.org/demographics/CodeSystem/ahip-demo-disability-codes> a fhir:CodeSystem ;
+<http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-disability-codes> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:Resource.id [ fhir:value "ahip-demo-disability-codes"] ;
   fhir:Resource.language [ fhir:value "en"] ;
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ] ;
-     fhir:Narrative.div "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ahip-demo-disability-codes</b></p><a name=\"ahip-demo-disability-codes\"> </a><a name=\"hcahip-demo-disability-codes\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><p>This case-sensitive code system <code>http://ahip.org/demographics/CodeSystem/ahip-demo-disability-codes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">HEAR<a name=\"ahip-demo-disability-codes-HEAR\"> </a></td><td>Hearing</td></tr><tr><td style=\"white-space:nowrap\">SEEI<a name=\"ahip-demo-disability-codes-SEEI\"> </a></td><td>Seeing (even when wearing glasses)</td></tr><tr><td style=\"white-space:nowrap\">WALK<a name=\"ahip-demo-disability-codes-WALK\"> </a></td><td>Walking or climbing stairs</td></tr><tr><td style=\"white-space:nowrap\">CONC<a name=\"ahip-demo-disability-codes-CONC\"> </a></td><td>Concentrating, remembering, or making decisions</td></tr><tr><td style=\"white-space:nowrap\">DRES<a name=\"ahip-demo-disability-codes-DRES\"> </a></td><td>Dressing or bathing</td></tr><tr><td style=\"white-space:nowrap\">COOK<a name=\"ahip-demo-disability-codes-COOK\"> </a></td><td>Cooking for oneself</td></tr><tr><td style=\"white-space:nowrap\">FEED<a name=\"ahip-demo-disability-codes-FEED\"> </a></td><td>Feeding oneself</td></tr><tr><td style=\"white-space:nowrap\">TOIL<a name=\"ahip-demo-disability-codes-TOIL\"> </a></td><td>Using the toilet</td></tr><tr><td style=\"white-space:nowrap\">ERRA<a name=\"ahip-demo-disability-codes-ERRA\"> </a></td><td>Doing errands alone, such as shopping or visiting a doctor’s office</td></tr><tr><td style=\"white-space:nowrap\">COMM<a name=\"ahip-demo-disability-codes-COMM\"> </a></td><td>Communicating or being understood using your usual language</td></tr><tr><td style=\"white-space:nowrap\">UNDE<a name=\"ahip-demo-disability-codes-UNDE\"> </a></td><td>Understanding when someone speaks in your usual language</td></tr></table></div>"
+     fhir:Narrative.div "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ahip-demo-disability-codes</b></p><a name=\"ahip-demo-disability-codes\"> </a><a name=\"hcahip-demo-disability-codes\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><p>This case-sensitive code system <code>http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-disability-codes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">HEAR<a name=\"ahip-demo-disability-codes-HEAR\"> </a></td><td>Hearing</td><td>Deafness or serious difficulty hearing because of a physical or mental health condition.</td></tr><tr><td style=\"white-space:nowrap\">SEEI<a name=\"ahip-demo-disability-codes-SEEI\"> </a></td><td>Seeing (even when wearing glasses)</td><td>Blindness or serious difficulty seeing, even when wearing glasses, because of a physical or mental health condition.</td></tr><tr><td style=\"white-space:nowrap\">WALK<a name=\"ahip-demo-disability-codes-WALK\"> </a></td><td>Walking or climbing stairs</td><td>Serious difficulty walking or climbing stairs because of a physical or mental health condition.</td></tr><tr><td style=\"white-space:nowrap\">CONC<a name=\"ahip-demo-disability-codes-CONC\"> </a></td><td>Concentrating, remembering, or making decisions</td><td>Serious difficulty concentrating, remembering, or making decisions because of a physical or mental health condition.</td></tr><tr><td style=\"white-space:nowrap\">DRES<a name=\"ahip-demo-disability-codes-DRES\"> </a></td><td>Dressing or bathing</td><td>Difficulty dressing or bathing because of a physical or mental health condition.</td></tr><tr><td style=\"white-space:nowrap\">COOK<a name=\"ahip-demo-disability-codes-COOK\"> </a></td><td>Cooking for oneself</td><td>Difficulty cooking for oneself because of a physical or mental health condition.</td></tr><tr><td style=\"white-space:nowrap\">FEED<a name=\"ahip-demo-disability-codes-FEED\"> </a></td><td>Feeding oneself</td><td>Difficulty feeding oneself because of a physical or mental health condition.</td></tr><tr><td style=\"white-space:nowrap\">TOIL<a name=\"ahip-demo-disability-codes-TOIL\"> </a></td><td>Using the toilet</td><td>Difficulty using the toilet because of a physical or mental health condition.</td></tr><tr><td style=\"white-space:nowrap\">ERRA<a name=\"ahip-demo-disability-codes-ERRA\"> </a></td><td>Doing errands alone, such as shopping or visiting a doctor’s office</td><td>Difficulty doing errands alone, such as shopping or visiting a doctor's office, because of a physical or mental health condition.</td></tr><tr><td style=\"white-space:nowrap\">COMM<a name=\"ahip-demo-disability-codes-COMM\"> </a></td><td>Communicating or being understood using your usual language</td><td>Difficulty communicating or being understood using one's usual language because of a physical or mental health condition.</td></tr><tr><td style=\"white-space:nowrap\">UNDE<a name=\"ahip-demo-disability-codes-UNDE\"> </a></td><td>Understanding when someone speaks in your usual language</td><td>Difficulty understanding when someone speaks in one's usual language because of a physical or mental health condition.</td></tr></table></div>"
   ] ;
   fhir:DomainResource.extension [
      fhir:index -1 ;
@@ -26,21 +26,21 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ] ;
      fhir:Extension.valueCode [ fhir:value "trial-use" ]
   ] ;
-  fhir:CodeSystem.url [ fhir:value "http://ahip.org/demographics/CodeSystem/ahip-demo-disability-codes"] ;
+  fhir:CodeSystem.url [ fhir:value "http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-disability-codes"] ;
   fhir:CodeSystem.version [ fhir:value "0.1.0"] ;
   fhir:CodeSystem.name [ fhir:value "AHIPDemoDisabilityCodes"] ;
   fhir:CodeSystem.title [ fhir:value "AHIP Demo Disability Codes"] ;
   fhir:CodeSystem.status [ fhir:value "active"] ;
   fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
   fhir:CodeSystem.date [ fhir:value "2025-03-25T00:00:00-04:00"^^xsd:dateTime] ;
-  fhir:CodeSystem.publisher [ fhir:value "AHIP"] ;
+  fhir:CodeSystem.publisher [ fhir:value "HL7 International / Cross-Group Projects"] ;
   fhir:CodeSystem.contact [
      fhir:index -1 ;
-     fhir:ContactDetail.name [ fhir:value "AHIP" ] ;
+     fhir:ContactDetail.name [ fhir:value "HL7 International / Cross-Group Projects" ] ;
      fhir:ContactDetail.telecom [
        fhir:index -1 ;
        fhir:ContactPoint.system [ fhir:value "url" ] ;
-       fhir:ContactPoint.value [ fhir:value "http://ahip.org" ]
+       fhir:ContactPoint.value [ fhir:value "http://www.hl7.org/Special/committees/cgp" ]
      ]
   ] ;
   fhir:CodeSystem.description [ fhir:value "AHIP-specific codes identifying functional difficulty categories used to determine disability status across activities of daily living."] ;
@@ -50,53 +50,65 @@
   fhir:CodeSystem.concept [
      fhir:index -1 ;
      fhir:CodeSystem.concept.code [ fhir:value "HEAR" ] ;
-     fhir:CodeSystem.concept.display [ fhir:value "Hearing" ]
+     fhir:CodeSystem.concept.display [ fhir:value "Hearing" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Deafness or serious difficulty hearing because of a physical or mental health condition." ]
   ], [
      fhir:index -1 ;
      fhir:CodeSystem.concept.code [ fhir:value "SEEI" ] ;
-     fhir:CodeSystem.concept.display [ fhir:value "Seeing (even when wearing glasses)" ]
+     fhir:CodeSystem.concept.display [ fhir:value "Seeing (even when wearing glasses)" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Blindness or serious difficulty seeing, even when wearing glasses, because of a physical or mental health condition." ]
   ], [
      fhir:index -1 ;
      fhir:CodeSystem.concept.code [ fhir:value "WALK" ] ;
-     fhir:CodeSystem.concept.display [ fhir:value "Walking or climbing stairs" ]
+     fhir:CodeSystem.concept.display [ fhir:value "Walking or climbing stairs" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Serious difficulty walking or climbing stairs because of a physical or mental health condition." ]
   ], [
      fhir:index -1 ;
      fhir:CodeSystem.concept.code [ fhir:value "CONC" ] ;
-     fhir:CodeSystem.concept.display [ fhir:value "Concentrating, remembering, or making decisions" ]
+     fhir:CodeSystem.concept.display [ fhir:value "Concentrating, remembering, or making decisions" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Serious difficulty concentrating, remembering, or making decisions because of a physical or mental health condition." ]
   ], [
      fhir:index -1 ;
      fhir:CodeSystem.concept.code [ fhir:value "DRES" ] ;
-     fhir:CodeSystem.concept.display [ fhir:value "Dressing or bathing" ]
+     fhir:CodeSystem.concept.display [ fhir:value "Dressing or bathing" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Difficulty dressing or bathing because of a physical or mental health condition." ]
   ], [
      fhir:index -1 ;
      fhir:CodeSystem.concept.code [ fhir:value "COOK" ] ;
-     fhir:CodeSystem.concept.display [ fhir:value "Cooking for oneself" ]
+     fhir:CodeSystem.concept.display [ fhir:value "Cooking for oneself" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Difficulty cooking for oneself because of a physical or mental health condition." ]
   ], [
      fhir:index -1 ;
      fhir:CodeSystem.concept.code [ fhir:value "FEED" ] ;
-     fhir:CodeSystem.concept.display [ fhir:value "Feeding oneself" ]
+     fhir:CodeSystem.concept.display [ fhir:value "Feeding oneself" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Difficulty feeding oneself because of a physical or mental health condition." ]
   ], [
      fhir:index -1 ;
      fhir:CodeSystem.concept.code [ fhir:value "TOIL" ] ;
-     fhir:CodeSystem.concept.display [ fhir:value "Using the toilet" ]
+     fhir:CodeSystem.concept.display [ fhir:value "Using the toilet" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Difficulty using the toilet because of a physical or mental health condition." ]
   ], [
      fhir:index -1 ;
      fhir:CodeSystem.concept.code [ fhir:value "ERRA" ] ;
-     fhir:CodeSystem.concept.display [ fhir:value "Doing errands alone, such as shopping or visiting a doctor’s office" ]
+     fhir:CodeSystem.concept.display [ fhir:value "Doing errands alone, such as shopping or visiting a doctor’s office" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Difficulty doing errands alone, such as shopping or visiting a doctor's office, because of a physical or mental health condition." ]
   ], [
      fhir:index -1 ;
      fhir:CodeSystem.concept.code [ fhir:value "COMM" ] ;
-     fhir:CodeSystem.concept.display [ fhir:value "Communicating or being understood using your usual language" ]
+     fhir:CodeSystem.concept.display [ fhir:value "Communicating or being understood using your usual language" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Difficulty communicating or being understood using one's usual language because of a physical or mental health condition." ]
   ], [
      fhir:index -1 ;
      fhir:CodeSystem.concept.code [ fhir:value "UNDE" ] ;
-     fhir:CodeSystem.concept.display [ fhir:value "Understanding when someone speaks in your usual language" ]
+     fhir:CodeSystem.concept.display [ fhir:value "Understanding when someone speaks in your usual language" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Difficulty understanding when someone speaks in one's usual language because of a physical or mental health condition." ]
   ] .
 
 # - ontology header ------------------------------------------------------------
 
-<http://ahip.org/demographics/CodeSystem/ahip-demo-disability-codes.ttl> a owl:Ontology ;
-  owl:imports fhir:fhir.ttl .
+<http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-disability-codes.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl ;
+  owl:versionIRI <http://build.fhir.org/us/demographic-collect/CodeSystem/ahip-demo-disability-codes.ttl> .
 
 # -------------------------------------------------------------------------------------
 

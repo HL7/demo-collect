@@ -5,27 +5,40 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://ahip.org/demographics/ImplementationGuide/ahip.demo> a fhir:ImplementationGuide ;
+<http://hl7.org/fhir/us/demographic-collect/ImplementationGuide/ahip.demo> a fhir:ImplementationGuide ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:Resource.id [ fhir:value "ahip.demo"] ;
   fhir:Resource.language [ fhir:value "en"] ;
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ] ;
-     fhir:Narrative.div "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide ahip.demo</b></p><a name=\"ahip.demo\"> </a><a name=\"hcahip.demo\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><h2>AhipDemoIG</h2><p>The official URL for this implementation guide is: </p><pre>http://ahip.org/demographics/ImplementationGuide/ahip.demo</pre></div>"
+     fhir:Narrative.div "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide ahip.demo</b></p><a name=\"ahip.demo\"> </a><a name=\"hcahip.demo\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><h2>AhipDemoIG</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/us/demographic-collect/ImplementationGuide/ahip.demo</pre></div>"
   ] ;
-  fhir:ImplementationGuide.url [ fhir:value "http://ahip.org/demographics/ImplementationGuide/ahip.demo"] ;
+  fhir:DomainResource.extension [
+     fhir:index -1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg" ] ;
+     fhir:Extension.valueCode [ fhir:value "cgp" ]
+  ], [
+     fhir:index -1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ] ;
+     fhir:Extension.valueCode [ fhir:value "trial-use" ]
+  ], [
+     fhir:index -1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm" ] ;
+     fhir:Extension.valueInteger [ fhir:value "1"^^xsd:integer ]
+  ] ;
+  fhir:ImplementationGuide.url [ fhir:value "http://hl7.org/fhir/us/demographic-collect/ImplementationGuide/ahip.demo"] ;
   fhir:ImplementationGuide.version [ fhir:value "0.1.0"] ;
   fhir:ImplementationGuide.name [ fhir:value "AhipDemoIG"] ;
-  fhir:ImplementationGuide.status [ fhir:value "draft"] ;
-  fhir:ImplementationGuide.date [ fhir:value "2026-10-28T11:16:26-03:00"^^xsd:dateTime] ;
-  fhir:ImplementationGuide.publisher [ fhir:value "AHIP"] ;
+  fhir:ImplementationGuide.status [ fhir:value "active"] ;
+  fhir:ImplementationGuide.date [ fhir:value "2026-11-04T22:55:30+00:00"^^xsd:dateTime] ;
+  fhir:ImplementationGuide.publisher [ fhir:value "HL7 International / Cross-Group Projects"] ;
   fhir:ImplementationGuide.contact [
      fhir:index -1 ;
-     fhir:ContactDetail.name [ fhir:value "AHIP" ] ;
+     fhir:ContactDetail.name [ fhir:value "HL7 International / Cross-Group Projects" ] ;
      fhir:ContactDetail.telecom [
        fhir:index -1 ;
        fhir:ContactPoint.system [ fhir:value "url" ] ;
-       fhir:ContactPoint.value [ fhir:value "http://ahip.org" ]
+       fhir:ContactPoint.value [ fhir:value "http://www.hl7.org/Special/committees/cgp" ]
      ]
   ] ;
   fhir:ImplementationGuide.packageId [ fhir:value "ahip.demo"] ;
@@ -94,6 +107,18 @@
          fhir:index -1 ;
          fhir:Extension.url [ fhir:value "value" ] ;
          fhir:Extension.valueString [ fhir:value "ci-build" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "code" ] ;
+         fhir:Extension.valueCode [ fhir:value "path-history" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "value" ] ;
+         fhir:Extension.valueString [ fhir:value "http://hl7.org/fhir/us/demographic-collect/history.html" ]
        ] ;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -178,18 +203,6 @@
          fhir:index -1 ;
          fhir:Extension.url [ fhir:value "value" ] ;
          fhir:Extension.valueString [ fhir:value "input/ignoreWarnings.txt" ]
-       ] ;
-       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
-     ], [
-       fhir:index -1 ;
-       fhir:Element.extension [
-         fhir:index -1 ;
-         fhir:Extension.url [ fhir:value "code" ] ;
-         fhir:Extension.valueCode [ fhir:value "path-history" ]
-       ], [
-         fhir:index -1 ;
-         fhir:Extension.url [ fhir:value "value" ] ;
-         fhir:Extension.valueString [ fhir:value "http://ahip.org/demographics/history.html" ]
        ] ;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -393,7 +406,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ahip.org/demographics/ValueSet/ahip-background-asian-category> ;
+         fhir:link <http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-background-asian-category> ;
          fhir:Reference.reference [ fhir:value "ValueSet/ahip-background-asian-category" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Asian Background Categories" ] ;
@@ -407,7 +420,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ahip.org/demographics/ValueSet/ahip-birth-sex> ;
+         fhir:link <http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-birth-sex> ;
          fhir:Reference.reference [ fhir:value "ValueSet/ahip-birth-sex" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Birth Sex" ] ;
@@ -421,7 +434,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ahip.org/demographics/ValueSet/ahip-background-black-category> ;
+         fhir:link <http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-background-black-category> ;
          fhir:Reference.reference [ fhir:value "ValueSet/ahip-background-black-category" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Black Background Categories" ] ;
@@ -435,7 +448,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ahip.org/demographics/ValueSet/ahip-care-consideration> ;
+         fhir:link <http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-care-consideration> ;
          fhir:Reference.reference [ fhir:value "ValueSet/ahip-care-consideration" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Care Consideration Value Set" ] ;
@@ -449,7 +462,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ahip.org/demographics/ValueSet/ahip-religion-christian-detail> ;
+         fhir:link <http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-religion-christian-detail> ;
          fhir:Reference.reference [ fhir:value "ValueSet/ahip-religion-christian-detail" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Christian Religion Detail Value Set" ] ;
@@ -463,7 +476,7 @@
          fhir:Extension.valueString [ fhir:value "Questionnaire" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ahip.org/demographics/Questionnaire/AHIPDemoQuestionnaire> ;
+         fhir:link <http://hl7.org/fhir/us/demographic-collect/Questionnaire/AHIPDemoQuestionnaire> ;
          fhir:Reference.reference [ fhir:value "Questionnaire/AHIPDemoQuestionnaire" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP CIVITAS DEMO QUESTIONNAIRE" ] ;
@@ -477,7 +490,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor> ;
+         fhir:link <http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-additional-nullFlavor> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/ahip-demo-additional-nullFlavor" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Demo Additional NullFlavor" ] ;
@@ -491,7 +504,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ahip.org/demographics/CodeSystem/ahip-demo-disability-codes> ;
+         fhir:link <http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-disability-codes> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/ahip-demo-disability-codes" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Demo Disability Codes" ] ;
@@ -505,7 +518,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ahip.org/demographics/CodeSystem/ahip-demo-temporary-codes> ;
+         fhir:link <http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-temporary-codes> ;
          fhir:Reference.reference [ fhir:value "CodeSystem/ahip-demo-temporary-codes" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Demo Temporary Codes" ] ;
@@ -519,7 +532,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ahip.org/demographics/ValueSet/ahip-disability> ;
+         fhir:link <http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-disability> ;
          fhir:Reference.reference [ fhir:value "ValueSet/ahip-disability" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Disability" ] ;
@@ -533,7 +546,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ahip.org/demographics/ValueSet/ahip-demo-gender-identity> ;
+         fhir:link <http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-demo-gender-identity> ;
          fhir:Reference.reference [ fhir:value "ValueSet/ahip-demo-gender-identity" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Gender Identity" ] ;
@@ -547,7 +560,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ahip.org/demographics/ValueSet/ahip-background-latino-category> ;
+         fhir:link <http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-background-latino-category> ;
          fhir:Reference.reference [ fhir:value "ValueSet/ahip-background-latino-category" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Hispanic Latino Background Categories" ] ;
@@ -561,7 +574,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ahip.org/demographics/ValueSet/ahip-interpreter-modes> ;
+         fhir:link <http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-interpreter-modes> ;
          fhir:Reference.reference [ fhir:value "ValueSet/ahip-interpreter-modes" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Interpreter Modes" ] ;
@@ -575,7 +588,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ahip.org/demographics/ValueSet/ahip-religion-jewish-detail> ;
+         fhir:link <http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-religion-jewish-detail> ;
          fhir:Reference.reference [ fhir:value "ValueSet/ahip-religion-jewish-detail" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Jewish Religion Detail Value Set" ] ;
@@ -589,7 +602,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ahip.org/demographics/ValueSet/ahip-background-middle-eastern-category> ;
+         fhir:link <http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-background-middle-eastern-category> ;
          fhir:Reference.reference [ fhir:value "ValueSet/ahip-background-middle-eastern-category" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Middle Eastern Background Categories" ] ;
@@ -603,7 +616,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ahip.org/demographics/ValueSet/ahip-background-native-american-category> ;
+         fhir:link <http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-background-native-american-category> ;
          fhir:Reference.reference [ fhir:value "ValueSet/ahip-background-native-american-category" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Native American Background Categories" ] ;
@@ -617,7 +630,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ahip.org/demographics/ValueSet/ahip-background-native-hawaiian-category> ;
+         fhir:link <http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-background-native-hawaiian-category> ;
          fhir:Reference.reference [ fhir:value "ValueSet/ahip-background-native-hawaiian-category" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Native Hawaiian Background Categories" ] ;
@@ -631,7 +644,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ahip.org/demographics/ValueSet/ahip-outreach-mode> ;
+         fhir:link <http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-outreach-mode> ;
          fhir:Reference.reference [ fhir:value "ValueSet/ahip-outreach-mode" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Outreach Modes" ] ;
@@ -645,7 +658,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ahip.org/demographics/ValueSet/ahip-preferred-pronouns> ;
+         fhir:link <http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-preferred-pronouns> ;
          fhir:Reference.reference [ fhir:value "ValueSet/ahip-preferred-pronouns" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Preferred Pronouns" ] ;
@@ -659,7 +672,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ahip.org/demographics/ValueSet/ahip-race-category> ;
+         fhir:link <http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-race-category> ;
          fhir:Reference.reference [ fhir:value "ValueSet/ahip-race-category" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Race and Ethnicity Categories" ] ;
@@ -673,7 +686,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ahip.org/demographics/ValueSet/ahip-reading-language-prereferences> ;
+         fhir:link <http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-reading-language-prereferences> ;
          fhir:Reference.reference [ fhir:value "ValueSet/ahip-reading-language-prereferences" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Reading Language Preferences" ] ;
@@ -687,7 +700,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ahip.org/demographics/ValueSet/ahip-relationship-status> ;
+         fhir:link <http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-relationship-status> ;
          fhir:Reference.reference [ fhir:value "ValueSet/ahip-relationship-status" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Relationship Status" ] ;
@@ -701,7 +714,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ahip.org/demographics/ValueSet/ahip-religion-spirituality> ;
+         fhir:link <http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-religion-spirituality> ;
          fhir:Reference.reference [ fhir:value "ValueSet/ahip-religion-spirituality" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Religion/Spirituality Value Set" ] ;
@@ -715,7 +728,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ahip.org/demographics/ValueSet/ahip-sexual-orientation> ;
+         fhir:link <http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-sexual-orientation> ;
          fhir:Reference.reference [ fhir:value "ValueSet/ahip-sexual-orientation" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Sexual Orientation" ] ;
@@ -729,7 +742,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ahip.org/demographics/ValueSet/ahip-speaking-language-prereferences> ;
+         fhir:link <http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-speaking-language-prereferences> ;
          fhir:Reference.reference [ fhir:value "ValueSet/ahip-speaking-language-prereferences" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Speaking Language Preferences" ] ;
@@ -743,7 +756,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ahip.org/demographics/ValueSet/ahip-military-service-period> ;
+         fhir:link <http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-military-service-period> ;
          fhir:Reference.reference [ fhir:value "ValueSet/ahip-military-service-period" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP US Military Service Period Codes" ] ;
@@ -757,7 +770,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ahip.org/demographics/ValueSet/ahip-background-white-category> ;
+         fhir:link <http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-background-white-category> ;
          fhir:Reference.reference [ fhir:value "ValueSet/ahip-background-white-category" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP White Background Categories" ] ;
@@ -771,7 +784,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ahip.org/demographics/ValueSet/ahip-yes-no-dont-know-no-response> ;
+         fhir:link <http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-yes-no-dont-know-no-response> ;
          fhir:Reference.reference [ fhir:value "ValueSet/ahip-yes-no-dont-know-no-response" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Yes, No, Don't Know, or No Response" ] ;
@@ -785,7 +798,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ahip.org/demographics/ValueSet/ahip-yes-no-no-response> ;
+         fhir:link <http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-yes-no-no-response> ;
          fhir:Reference.reference [ fhir:value "ValueSet/ahip-yes-no-no-response" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "AHIP Yes, No, or No Response" ] ;
@@ -794,6 +807,10 @@
      ] ;
      fhir:ImplementationGuide.definition.page [
        fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ] ;
+         fhir:Extension.valueCode [ fhir:value "informative" ]
+       ], [
          fhir:index -1 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
          fhir:Extension.valueUrl [ fhir:value "toc.html" ]
@@ -805,6 +822,10 @@
          fhir:index -1 ;
          fhir:Element.extension [
            fhir:index -1 ;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ] ;
+           fhir:Extension.valueCode [ fhir:value "informative" ]
+         ], [
+           fhir:index -1 ;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
            fhir:Extension.valueUrl [ fhir:value "index.html" ]
          ] ;
@@ -814,6 +835,10 @@
        ], [
          fhir:index -1 ;
          fhir:Element.extension [
+           fhir:index -1 ;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ] ;
+           fhir:Extension.valueCode [ fhir:value "informative" ]
+         ], [
            fhir:index -1 ;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
            fhir:Extension.valueUrl [ fhir:value "background.html" ]
@@ -825,6 +850,10 @@
          fhir:index -1 ;
          fhir:Element.extension [
            fhir:index -1 ;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ] ;
+           fhir:Extension.valueCode [ fhir:value "informative" ]
+         ], [
+           fhir:index -1 ;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
            fhir:Extension.valueUrl [ fhir:value "intellectual-property.html" ]
          ] ;
@@ -835,15 +864,9 @@
          fhir:index -1 ;
          fhir:Element.extension [
            fhir:index -1 ;
-           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
-           fhir:Extension.valueUrl [ fhir:value "conventions.html" ]
-         ] ;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "conventions.html" ] ;
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Conventions" ] ;
-         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
-       ], [
-         fhir:index -1 ;
-         fhir:Element.extension [
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ] ;
+           fhir:Extension.valueCode [ fhir:value "informative" ]
+         ], [
            fhir:index -1 ;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
            fhir:Extension.valueUrl [ fhir:value "introduction.html" ]
@@ -855,6 +878,10 @@
          fhir:index -1 ;
          fhir:Element.extension [
            fhir:index -1 ;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ] ;
+           fhir:Extension.valueCode [ fhir:value "informative" ]
+         ], [
+           fhir:index -1 ;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
            fhir:Extension.valueUrl [ fhir:value "use-cases.html" ]
          ] ;
@@ -864,6 +891,10 @@
        ], [
          fhir:index -1 ;
          fhir:Element.extension [
+           fhir:index -1 ;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ] ;
+           fhir:Extension.valueCode [ fhir:value "informative" ]
+         ], [
            fhir:index -1 ;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
            fhir:Extension.valueUrl [ fhir:value "supporting-specifications.html" ]
@@ -875,6 +906,10 @@
          fhir:index -1 ;
          fhir:Element.extension [
            fhir:index -1 ;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ] ;
+           fhir:Extension.valueCode [ fhir:value "informative" ]
+         ], [
+           fhir:index -1 ;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
            fhir:Extension.valueUrl [ fhir:value "projects-and-participants.html" ]
          ] ;
@@ -885,6 +920,10 @@
          fhir:index -1 ;
          fhir:Element.extension [
            fhir:index -1 ;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ] ;
+           fhir:Extension.valueCode [ fhir:value "informative" ]
+         ], [
+           fhir:index -1 ;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
            fhir:Extension.valueUrl [ fhir:value "security.html" ]
          ] ;
@@ -894,6 +933,10 @@
        ], [
          fhir:index -1 ;
          fhir:Element.extension [
+           fhir:index -1 ;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ] ;
+           fhir:Extension.valueCode [ fhir:value "informative" ]
+         ], [
            fhir:index -1 ;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
            fhir:Extension.valueUrl [ fhir:value "support-menu.html" ]
@@ -970,10 +1013,69 @@
      ]
   ] .
 
+<http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-background-asian-category> a fhir:us .
+
+<http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-birth-sex> a fhir:us .
+
+<http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-background-black-category> a fhir:us .
+
+<http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-care-consideration> a fhir:us .
+
+<http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-religion-christian-detail> a fhir:us .
+
+<http://hl7.org/fhir/us/demographic-collect/Questionnaire/AHIPDemoQuestionnaire> a fhir:us .
+
+<http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-additional-nullFlavor> a fhir:us .
+
+<http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-disability-codes> a fhir:us .
+
+<http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-temporary-codes> a fhir:us .
+
+<http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-disability> a fhir:us .
+
+<http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-demo-gender-identity> a fhir:us .
+
+<http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-background-latino-category> a fhir:us .
+
+<http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-interpreter-modes> a fhir:us .
+
+<http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-religion-jewish-detail> a fhir:us .
+
+<http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-background-middle-eastern-category> a fhir:us .
+
+<http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-background-native-american-category> a fhir:us .
+
+<http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-background-native-hawaiian-category> a fhir:us .
+
+<http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-outreach-mode> a fhir:us .
+
+<http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-preferred-pronouns> a fhir:us .
+
+<http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-race-category> a fhir:us .
+
+<http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-reading-language-prereferences> a fhir:us .
+
+<http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-relationship-status> a fhir:us .
+
+<http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-religion-spirituality> a fhir:us .
+
+<http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-sexual-orientation> a fhir:us .
+
+<http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-speaking-language-prereferences> a fhir:us .
+
+<http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-military-service-period> a fhir:us .
+
+<http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-background-white-category> a fhir:us .
+
+<http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-yes-no-dont-know-no-response> a fhir:us .
+
+<http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-yes-no-no-response> a fhir:us .
+
 # - ontology header ------------------------------------------------------------
 
-<http://ahip.org/demographics/ImplementationGuide/ahip.demo.ttl> a owl:Ontology ;
-  owl:imports fhir:fhir.ttl .
+<http://hl7.org/fhir/us/demographic-collect/ImplementationGuide/ahip.demo.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl ;
+  owl:versionIRI <http://build.fhir.org/us/demographic-collect/ImplementationGuide/ahip.demo.ttl> .
 
 # -------------------------------------------------------------------------------------
 

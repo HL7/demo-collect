@@ -5,7 +5,6 @@
 * [AhipDemoIG](en/index.md)
 * [Artifacts Summary](en/artifacts.md)
 * [Support Menu](en/support-menu.md)
-* [Conventions](en/conventions.md)
 * [Intellectual Property Considerations](en/intellectual-property.md)
 * [Security](en/security.md)
 * [Supporting Specifications](en/supporting-specifications.md)

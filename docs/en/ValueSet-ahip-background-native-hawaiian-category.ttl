@@ -5,13 +5,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://ahip.org/demographics/ValueSet/ahip-background-native-hawaiian-category> a fhir:ValueSet ;
+<http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-background-native-hawaiian-category> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:Resource.id [ fhir:value "ahip-background-native-hawaiian-category"] ;
   fhir:Resource.language [ fhir:value "en"] ;
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ] ;
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-background-native-hawaiian-category</b></p><a name=\"ahip-background-native-hawaiian-category\"> </a><a name=\"hcahip-background-native-hawaiian-category\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-CDCREC.html\"><code>urn:oid:2.16.840.1.113883.6.238</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>2097-4</td><td>Chuukese</td></tr><tr><td>2088-3</td><td>Chamorro</td></tr><tr><td>2101-4</td><td>Fijian</td></tr><tr><td>2078-4</td><td>Polynesian</td></tr><tr><td>2093-3</td><td>Kosraean</td></tr><tr><td>2090-9</td><td>Marshallese</td></tr><tr><td>2079-2</td><td>Native Hawaiian</td></tr><tr><td>2091-7</td><td>Palauan</td></tr><tr><td>2102-2</td><td>Papua New Guinean</td></tr><tr><td>2094-1</td><td>Pohnpeian</td></tr><tr><td>2080-0</td><td>Samoan</td></tr><tr><td>2082-6</td><td>Tongan</td></tr><tr><td>2098-2</td><td>Yapese</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><span title=\"Version is explicitly stated to be 4.0.0\"> version ?4.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU\">ASKU</a></td><td>I don't know</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html\"><code>http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html#ahip-demo-additional-nullFlavor-CNTR\">CNTR</a></td><td>I choose not to respond at this time</td><td>This code is to represent explicitly that the patient has chosen not to respond to this question at this time.</td></tr></table></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ahip-background-native-hawaiian-category</b></p><a name=\"ahip-background-native-hawaiian-category\"> </a><a name=\"hcahip-background-native-hawaiian-category\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-CDCREC.html\"><code>urn:oid:2.16.840.1.113883.6.238</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>2097-4</td><td>Chuukese</td></tr><tr><td>2088-3</td><td>Chamorro</td></tr><tr><td>2101-4</td><td>Fijian</td></tr><tr><td>2078-4</td><td>Polynesian</td></tr><tr><td>2093-3</td><td>Kosraean</td></tr><tr><td>2090-9</td><td>Marshallese</td></tr><tr><td>2079-2</td><td>Native Hawaiian</td></tr><tr><td>2091-7</td><td>Palauan</td></tr><tr><td>2102-2</td><td>Papua New Guinean</td></tr><tr><td>2094-1</td><td>Pohnpeian</td></tr><tr><td>2080-0</td><td>Samoan</td></tr><tr><td>2082-6</td><td>Tongan</td></tr><tr><td>2098-2</td><td>Yapese</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><span title=\"Version is explicitly stated to be 4.0.0\"> version ?4.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-ASKU\">ASKU</a></td><td>I don't know</td><td>Information was sought but not found (e.g., patient was asked but didn't know)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html\"><code>http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-additional-nullFlavor</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-ahip-demo-additional-nullFlavor.html#ahip-demo-additional-nullFlavor-CNTR\">CNTR</a></td><td>I choose not to respond at this time</td><td>This code is to represent explicitly that the patient has chosen not to respond to this question at this time.</td></tr></table></li></ul></div>"
   ] ;
   fhir:DomainResource.extension [
      fhir:index -1 ;
@@ -26,21 +26,21 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ] ;
      fhir:Extension.valueCode [ fhir:value "trial-use" ]
   ] ;
-  fhir:ValueSet.url [ fhir:value "http://ahip.org/demographics/ValueSet/ahip-background-native-hawaiian-category"] ;
+  fhir:ValueSet.url [ fhir:value "http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-background-native-hawaiian-category"] ;
   fhir:ValueSet.version [ fhir:value "0.1.0"] ;
   fhir:ValueSet.name [ fhir:value "AHIPBackgroundNativeHawaiianCategories"] ;
   fhir:ValueSet.title [ fhir:value "AHIP Native Hawaiian Background Categories"] ;
   fhir:ValueSet.status [ fhir:value "active"] ;
   fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
   fhir:ValueSet.date [ fhir:value "2026-08-25T00:00:00-04:00"^^xsd:dateTime] ;
-  fhir:ValueSet.publisher [ fhir:value "AHIP"] ;
+  fhir:ValueSet.publisher [ fhir:value "HL7 International / Cross-Group Projects"] ;
   fhir:ValueSet.contact [
      fhir:index -1 ;
-     fhir:ContactDetail.name [ fhir:value "AHIP" ] ;
+     fhir:ContactDetail.name [ fhir:value "HL7 International / Cross-Group Projects" ] ;
      fhir:ContactDetail.telecom [
        fhir:index -1 ;
        fhir:ContactPoint.system [ fhir:value "url" ] ;
-       fhir:ContactPoint.value [ fhir:value "http://ahip.org" ]
+       fhir:ContactPoint.value [ fhir:value "http://www.hl7.org/Special/committees/cgp" ]
      ]
   ] ;
   fhir:ValueSet.description [ fhir:value "Used as the granular follow-up answer options shown when the patient selects Native Hawaiian or Other Pacific Islander on the race/ethnicity question."] ;
@@ -113,7 +113,7 @@
        ]
      ], [
        fhir:index -1 ;
-       fhir:ValueSet.compose.include.system [ fhir:value "http://ahip.org/demographics/CodeSystem/ahip-demo-additional-nullFlavor" ] ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://hl7.org/fhir/us/demographic-collect/CodeSystem/ahip-demo-additional-nullFlavor" ] ;
        fhir:ValueSet.compose.include.concept [
          fhir:index -1 ;
          fhir:ValueSet.compose.include.concept.code [ fhir:value "CNTR" ] ;
@@ -124,8 +124,9 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://ahip.org/demographics/ValueSet/ahip-background-native-hawaiian-category.ttl> a owl:Ontology ;
-  owl:imports fhir:fhir.ttl .
+<http://hl7.org/fhir/us/demographic-collect/ValueSet/ahip-background-native-hawaiian-category.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl ;
+  owl:versionIRI <http://build.fhir.org/us/demographic-collect/ValueSet/ahip-background-native-hawaiian-category.ttl> .
 
 # -------------------------------------------------------------------------------------
 

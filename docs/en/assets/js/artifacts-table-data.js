@@ -5,7 +5,11 @@ window.artifactsTableData = {
       "category":    "Category",
       "useGrouping": "Use grouping",
       "clearAll":      "Clear all",
-      "linkToSection": "Link to this section"
+      "linkToSection": "Link to this section",
+      "headings":      "Headings",
+      "headingsFull":  "Full",
+      "headingsTitle": "Title",
+      "headingsNone":  "None"
     },
     "groupDescriptions": {
       "-term-valueset": "<p>These define sets of codes used by systems conforming to this implementation guide.</p>\n"

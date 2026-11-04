@@ -4,19 +4,28 @@
   <id value="ahip.demo"/>
   <language value="en"/>
   <text>
-    <status value="generated"/><div xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide ahip.demo</b></p><a name="ahip.demo"> </a><a name="hcahip.demo"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: en</p></div><h2>AhipDemoIG</h2><p>The official URL for this implementation guide is: </p><pre>http://ahip.org/demographics/ImplementationGuide/ahip.demo</pre></div>
+    <status value="generated"/><div xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide ahip.demo</b></p><a name="ahip.demo"> </a><a name="hcahip.demo"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: en</p></div><h2>AhipDemoIG</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/us/demographic-collect/ImplementationGuide/ahip.demo</pre></div>
   </text>
-  <url value="http://ahip.org/demographics/ImplementationGuide/ahip.demo"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="cgp"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <url value="http://hl7.org/fhir/us/demographic-collect/ImplementationGuide/ahip.demo"/>
   <version value="0.1.0"/>
   <name value="AhipDemoIG"/>
-  <status value="draft"/>
-  <date value="2026-10-28T11:16:26-03:00"/>
-  <publisher value="AHIP"/>
+  <status value="active"/>
+  <date value="2026-11-04T22:55:30+00:00"/>
+  <publisher value="HL7 International / Cross-Group Projects"/>
   <contact>
-    <name value="AHIP"/>
+    <name value="HL7 International / Cross-Group Projects"/>
     <telecom>
       <system value="url"/>
-      <value value="http://ahip.org"/>
+      <value value="http://www.hl7.org/Special/committees/cgp"/>
     </telecom>
   </contact>
   <packageId value="ahip.demo"/>
@@ -58,6 +67,14 @@
       </extension>
       <extension url="value">
         <valueString value="ci-build"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-history"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://hl7.org/fhir/us/demographic-collect/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -114,14 +131,6 @@
       </extension>
       <extension url="value">
         <valueString value="input/ignoreWarnings.txt"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="path-history"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://ahip.org/demographics/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -572,6 +581,9 @@
       <exampleBoolean value="false"/>
     </resource>
     <page>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="informative"/>
+      </extension>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
         <valueUrl value="toc.html"/>
       </extension>
@@ -579,6 +591,9 @@
       <title value="Table of Contents"/>
       <generation value="html"/>
       <page>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative"/>
+        </extension>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
           <valueUrl value="index.html"/>
         </extension>
@@ -587,6 +602,9 @@
         <generation value="markdown"/>
       </page>
       <page>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative"/>
+        </extension>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
           <valueUrl value="background.html"/>
         </extension>
@@ -595,6 +613,9 @@
         <generation value="markdown"/>
       </page>
       <page>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative"/>
+        </extension>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
           <valueUrl value="intellectual-property.html"/>
         </extension>
@@ -603,14 +624,9 @@
         <generation value="markdown"/>
       </page>
       <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="conventions.html"/>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative"/>
         </extension>
-        <nameUrl value="conventions.html"/>
-        <title value="Conventions"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
           <valueUrl value="introduction.html"/>
         </extension>
@@ -619,6 +635,9 @@
         <generation value="markdown"/>
       </page>
       <page>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative"/>
+        </extension>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
           <valueUrl value="use-cases.html"/>
         </extension>
@@ -627,6 +646,9 @@
         <generation value="markdown"/>
       </page>
       <page>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative"/>
+        </extension>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
           <valueUrl value="supporting-specifications.html"/>
         </extension>
@@ -635,6 +657,9 @@
         <generation value="markdown"/>
       </page>
       <page>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative"/>
+        </extension>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
           <valueUrl value="projects-and-participants.html"/>
         </extension>
@@ -643,6 +668,9 @@
         <generation value="markdown"/>
       </page>
       <page>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative"/>
+        </extension>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
           <valueUrl value="security.html"/>
         </extension>
@@ -651,6 +679,9 @@
         <generation value="markdown"/>
       </page>
       <page>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative"/>
+        </extension>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
           <valueUrl value="support-menu.html"/>
         </extension>

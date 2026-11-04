@@ -41,7 +41,7 @@ General discussion and questions about this IG:
 The FHIR IG Publisher generates package and download artifacts. When the IG is published:
 
 * **NPM package** – The IG can be installed as an NPM package (e.g., `ahip.demo`) for use in tooling and implementation.
-* **Full package** – A downloadable archive of the full IG (HTML, XML, JSON artifacts) is typically available from the publication site (e.g., [Directory of published versions](http://ahip.org/demographics/history.html) or the IG's build output).
+* **Full package** – A downloadable archive of the full IG (HTML, XML, JSON artifacts) is typically available from the publication site (e.g., [Directory of published versions](http://hl7.org/fhir/us/demographic-collect/history.html) or the IG's build output).
 * **Examples** – Example resources (e.g., QuestionnaireResponse or Patient snippets using this IG's value sets) may be included in the IG or in a separate examples package. **[Link to examples when available.]**
 
 For the latest build and QA report, see the IG's Table of Contents and the QA Report link on the live site.
