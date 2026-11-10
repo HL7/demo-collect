@@ -76,6 +76,10 @@ dependencies:
 #   excludettl: true
 #   validation: [allow-any-extensions, no-broken-links]
 #
+# Path is relative to fsh-generated/resources, where SUSHI writes the IG.
+parameters:
+  path-expansion-params: '../../exp-params.json'
+
 # The pages property corresponds to IG.definition.page. When set, SUSHI will not auto-generate pages.
 pages:
   index.md:
