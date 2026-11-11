@@ -67,7 +67,7 @@ Open the guide and `qa.html`. A successful build has 0 errors. The local Publish
 ## Not part of this procedure
 
 - Do not copy `output/` into `docs/` for the CI site. CI publishes its own output. `docs/` remains the GitHub Pages site on `diegokaminker/ahipdemoig`.
-- `publication-request.json` at the repository root requests the January 2027 STU 1 ballot publication (`1.0.0-ballot` at `http://hl7.org/fhir/us/demographic-collect/2027Jan`). Publishing still happens through the HL7 publication process, not through this CI build.
+- `publication-request.json` at the repository root requests the January 2027 STU 1 ballot publication (`1.0.0-ballot` at `http://hl7.org/fhir/us/demographic-collect/1.0.0-202701-ballot`). Publishing still happens through the HL7 publication process, not through this CI build.
 - Registering the guide is a separate pull request, described below. It lists the guide at https://registry.fhir.org/guides. It does not start the builds.
 
 ## OID and registry
