@@ -20,7 +20,7 @@ Checked 28 October 2026. None of the CI setup below has been done.
 | CI URL | https://build.fhir.org/ig/HL7/demo-collect/ (not built yet) |
 | Package id | `hl7.fhir.us.demographic-collect` |
 | Canonical | `http://hl7.org/fhir/us/demographic-collect` |
-| `releaseLabel` | `ci-build` (already set in `sushi-config.yaml`) |
+| `releaseLabel` | `STU 1 Ballot` (`version` is `1.0.0-ballot`) |
 | Publisher input | `ig.ini` at the repository root |
 
 The guide already has the files the builder needs: `ig.ini`, `sushi-config.yaml`, and `input/`. `fsh-generated/` is gitignored; the builder runs SUSHI itself. `input-cache/publisher.jar` is local and is not used by CI.
@@ -67,7 +67,7 @@ Open the guide and `qa.html`. A successful build has 0 errors. The local Publish
 ## Not part of this procedure
 
 - Do not copy `output/` into `docs/` for the CI site. CI publishes its own output. `docs/` remains the GitHub Pages site on `diegokaminker/ahipdemoig`.
-- Do not add `publication-request.json` here. That file is for a ballot or a formal publication, which is a separate HL7 process.
+- `publication-request.json` at the repository root requests the January 2027 STU 1 ballot publication (`1.0.0-ballot` at `http://hl7.org/fhir/us/demographic-collect/2027Jan`). Publishing still happens through the HL7 publication process, not through this CI build.
 - Registering the guide is a separate pull request, described below. It lists the guide at https://registry.fhir.org/guides. It does not start the builds.
 
 ## OID and registry

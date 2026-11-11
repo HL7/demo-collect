@@ -4,7 +4,7 @@ Instance: AHIPDemoQuestionnaire
 InstanceOf: Questionnaire
 Usage: #example
 * date = "2025-02-19"
-* version = "0.1.0"
+* version = "1.0.0-ballot"
 * status = #draft
 * publisher = "HL7 International / Cross-Group Projects"
 * contact.name = "HL7 International / Cross-Group Projects"

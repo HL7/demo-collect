@@ -3,10 +3,10 @@
 | Field | Value |
 |-------|--------|
 | **Official URL** | http://hl7.org/fhir/us/demographic-collect |
-| **Version** | 0.1.0 |
+| **Version** | 1.0.0-ballot |
 | **Standard Status** | Trial-use (or informative, as appropriate) |
 | **Maturity Level** | 1 (or 1–5 as applicable) |
-| **Computable Name** | AhipDemoIG |
+| **Computable Name** | USDemographicCollect |
 | **Copyright/Legal** | Joint copyright of America's Health Insurance Plans (AHIP) and Health Level Seven International (HL7). This Implementation Guide incorporates demographic content developed through the DEMo Initiative partnership of AHIP, Civitas Networks for Health, and HL7. Source repository: [HL7/demo-collect](https://github.com/HL7/demo-collect). |
 
 ---

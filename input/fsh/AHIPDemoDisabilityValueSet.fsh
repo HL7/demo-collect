@@ -15,7 +15,7 @@ This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ H
 
 This value set includes content developed through the DEMo Initiative and is subject to joint copyright of America's Health Insurance Plans (AHIP) and Health Level Seven International (HL7).
 """
-* include codes from system $AHIPDemoDisabilityCodes|0.1.0
+* include codes from system $AHIPDemoDisabilityCodes|1.0.0-ballot
 * $LOINC#LA137-2 "None"
 * $nullFlavor#ASKU "I don't know"
 * $AHIPDemoAdditionalNullFlavor#CNTR "I choose not to respond at this time"

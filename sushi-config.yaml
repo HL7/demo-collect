@@ -5,14 +5,14 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.fhir.us.demographic-collect
 canonical: http://hl7.org/fhir/us/demographic-collect
-name: AhipDemoIG
-# title: Example Title
+name: USDemographicCollect
+title: "HL7 FHIR® Implementation Guide: DEMo Questionnaire, Edition 1 - US Realm"
 # description: Example Implementation Guide for getting started with SUSHI
 status: active # draft | active | retired | unknown
-version: 0.1.0
+version: 1.0.0-ballot
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
-releaseLabel: ci-build
+releaseLabel: STU 1 Ballot
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
@@ -86,7 +86,7 @@ parameters:
 # The pages property corresponds to IG.definition.page. When set, SUSHI will not auto-generate pages.
 pages:
   index.md:
-    title: AhipDemoIG
+    title: USDemographicCollect
   background.md:
     title: Background
   intellectual-property.md:

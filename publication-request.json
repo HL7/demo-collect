@@ -1,0 +1,17 @@
+{
+  "package-id" : "hl7.fhir.us.demographic-collect",
+  "version" : "1.0.0-ballot",
+  "path" : "http://hl7.org/fhir/us/demographic-collect/2027Jan",
+  "mode" : "working",
+  "status" : "ballot",
+  "sequence" : "STU 1",
+  "desc" : "January 2027 STU 1 Ballot (1st STU ballot).",
+  "first" : true,
+  "title" : "HL7 FHIR® Implementation Guide: DEMo Questionnaire, Edition 1 - US Realm",
+  "ci-build" : "http://build.fhir.org/ig/HL7/demo-collect",
+  "category" : "Administration",
+  "introduction" : "This guide defines standardized, interoperable approaches for collecting patient demographic data using FHIR questionnaires. It specifies granular data elements, response options, and supporting guidance for consistent capture across healthcare, public health, and related systems.",
+  "registry-description" : "Standardized FHIR questionnaires and value sets for collecting granular patient demographic data, including race and ethnicity, language, sexual orientation and gender identity, pronouns, relationship status, disability, military service, and spiritual considerations. Developed through the AHIP, Civitas, and HL7 DEMo Initiative.",
+  "registry-country" : "us",
+  "registry-authority" : "HL7"
+}
