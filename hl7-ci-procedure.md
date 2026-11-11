@@ -68,4 +68,40 @@ Open the guide and `qa.html`. A successful build has 0 errors. The local Publish
 
 - Do not copy `output/` into `docs/` for the CI site. CI publishes its own output. `docs/` remains the GitHub Pages site on `diegokaminker/ahipdemoig`.
 - Do not add `publication-request.json` here. That file is for a ballot or a formal publication, which is a separate HL7 process.
-- Registering the guide in [FHIR/ig-registry](https://github.com/FHIR/ig-registry) (`fhir-ig-list.json`, `ci-build` set to `https://build.fhir.org/ig/HL7/demo-collect`) is optional and comes after a successful CI build. It lists the guide at https://registry.fhir.org/guides. It does not start the builds.
+- Registering the guide is a separate pull request, described below. It lists the guide at https://registry.fhir.org/guides. It does not start the builds.
+
+## OID and registry
+
+Checked 11 November 2026.
+
+Reuben Daniels registered this package in [oid-assignments.json](https://github.com/FHIR/ig-registry/blob/master/oid-assignments.json):
+
+| Item | Value |
+| --- | --- |
+| Package id | `hl7.fhir.us.demographic-collect` |
+| OID root | `2.16.840.1.113883.4.642.40.106` |
+| Recorded | 11 Nov 2026 |
+
+`sushi-config.yaml` sets `parameters.auto-oid-root` to that root. The publisher checks the root against `oid-assignments.json` and writes stable child OIDs to `oids.ini`. That file must stay in git. Do not renumber it. If a resource id changes, change the left-hand id in `oids.ini` so the OID stays with the same artifact.
+
+A local IG Publisher 3.0.1 run on 11 November 2026 finished with 0 errors, 0 warnings, 31 information messages, and 0 broken links. The continuous integration site at https://build.fhir.org/ig/HL7/demo-collect/ still shows the previous 28 OID errors until this change is pushed to `main`.
+
+After that CI build is clean, add the guide to [FHIR/ig-registry](https://github.com/FHIR/ig-registry) `fhir-ig-list.json`. Append this object to the `guides` array. Do not put it inside another guide's `editions` array. There is no published edition yet, so omit `editions`. `ci-build` must not end with `/`.
+
+```json
+{
+  "name": "DEMo Demographic Data Collection",
+  "category": "Administration",
+  "npm-name": "hl7.fhir.us.demographic-collect",
+  "description": "Standardized FHIR questionnaires and value sets for collecting granular patient demographic data, including race and ethnicity, language, sexual orientation and gender identity, pronouns, relationship status, disability, military service, and spiritual considerations. Developed through the AHIP, Civitas, and HL7 DEMo Initiative.",
+  "authority": "HL7",
+  "country": "us",
+  "language": ["en"],
+  "history": "http://hl7.org/fhir/us/demographic-collect/history.html",
+  "canonical": "http://hl7.org/fhir/us/demographic-collect",
+  "ci-build": "http://build.fhir.org/ig/HL7/demo-collect",
+  "product": ["fhir"]
+}
+```
+
+Open the pull request against `FHIR/ig-registry` `master`. The registry pipeline rejects invalid JSON. This does not publish a ballot or a package. `history.html` stays a 404 until the first publication request.

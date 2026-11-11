@@ -79,6 +79,9 @@ dependencies:
 # Path is relative to fsh-generated/resources, where SUSHI writes the IG.
 parameters:
   path-expansion-params: '../../exp-params.json'
+  # Root assigned 11 Nov 2026 in FHIR/ig-registry oid-assignments.json for this package.
+  # The publisher assigns stable child OIDs to the IG, code systems, and value sets.
+  auto-oid-root: 2.16.840.1.113883.4.642.40.106
 
 # The pages property corresponds to IG.definition.page. When set, SUSHI will not auto-generate pages.
 pages:
