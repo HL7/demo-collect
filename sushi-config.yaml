@@ -103,6 +103,8 @@ pages:
     title: Security
   support-menu.md:
     title: Support Menu
+  downloads.md:
+    title: Downloads
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │ The menu property will be used to generate the input/menu.xml file. The menu is represented    │
@@ -122,6 +124,7 @@ menu:
   "Projects and Participants": projects-and-participants.html
   Security: security.html
   Support: support-menu.html
+  Downloads: downloads.html
   Artifacts: artifacts.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮

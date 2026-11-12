@@ -1,0 +1,6 @@
+# Footer link rendered beside the QA Report.
+# Replace the url with the HL7 Jira project once one is assigned.
+feedback:
+  - dashboard:
+      label: Feedback
+      url: https://github.com/HL7/demo-collect/issues

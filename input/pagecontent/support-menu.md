@@ -16,10 +16,9 @@ This page provides links and short descriptions for project information, how to 
 
 To suggest changes to this Implementation Guide (e.g., new value set members, code system changes, or narrative updates):
 
-1. **HL7 Jira** – Submit a change request or comment via the HL7 FHIR specification feedback process. Reference this IG by name ("AHIP Demo IG") or canonical URL.
-2. **DEMo / AHIP process** – For content that affects demographic definitions or DEMo alignment, coordinate through the DEMo Initiative or AHIP Health Equity Workgroup so that balloted content stays aligned.
-
-*[Add specific Jira project or link when available.]*
+1. **GitHub issues** – Until an HL7 Jira project is assigned, open an issue on [HL7/demo-collect](https://github.com/HL7/demo-collect/issues). The Feedback link in the page footer uses this same address.
+2. **HL7 Jira** – When a Jira project is assigned, substantive change requests will move there. Reference this IG by name or canonical URL.
+3. **DEMo / AHIP process** – For content that affects demographic definitions or DEMo alignment, coordinate through the DEMo Initiative or AHIP Health Equity Workgroup so that balloted content stays aligned.
 
 ---
 
@@ -34,10 +33,4 @@ General discussion and questions about this IG:
 
 ### Downloads / Examples
 
-The FHIR IG Publisher generates package and download artifacts. When the IG is published:
-
-- **NPM package** – The IG can be installed as an NPM package (`hl7.fhir.us.demographic-collect`) for use in tooling and implementation.
-- **Full package** – A downloadable archive of the full IG (HTML, XML, JSON artifacts) is typically available from the publication site (e.g., [Directory of published versions](http://hl7.org/fhir/us/demographic-collect/history.html) or the IG's build output).
-- **Examples** – Example resources (e.g., QuestionnaireResponse or Patient snippets using this IG's value sets) may be included in the IG or in a separate examples package. *[Link to examples when available.]*
-
-For the latest build and QA report, see the IG's Table of Contents and the QA Report link on the live site.
+The package, the full guide, the definitions, and the examples are on the [Downloads](downloads.html) page.
