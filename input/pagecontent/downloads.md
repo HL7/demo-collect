@@ -13,18 +13,4 @@ The NPM package contains the value sets, code systems, questionnaire, and other 
 - [NPM package](../package.tgz)
 - [R4 package](../package.r4.tgz)
 
-### Definitions
-
-The computable definitions, without the narrative pages:
-
-- [XML](../definitions.xml.zip)
-- [JSON](../definitions.json.zip)
-- [TTL](../definitions.ttl.zip)
-
-### Examples
-
-The examples in this guide:
-
-- [XML](../examples.xml.zip)
-- [JSON](../examples.json.zip)
-- [TTL](../examples.ttl.zip)
+The questionnaire, value sets, and code systems are definition resources in those packages. This version does not include separate example resources.

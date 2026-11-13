@@ -2,15 +2,15 @@ Alias: $questionnaire-item-control = http://hl7.org/fhir/questionnaire-item-cont
 
 Instance: AHIPDemoQuestionnaire
 InstanceOf: Questionnaire
-Usage: #example
+Usage: #definition
 * date = "2025-02-19"
 * version = "1.0.0-ballot"
-* status = #draft
+* status = #active
 * publisher = "HL7 International / Cross-Group Projects"
 * contact.name = "HL7 International / Cross-Group Projects"
 * contact.telecom.system = #url
 * contact.telecom.value = "http://www.hl7.org/Special/committees/cgp"
-* description = "DRAFT QUESTIONNAIRE FOR AHIP - DRAFT VERSION FOR DISCUSSION ONLY"
+* description = "Demographic Data Collection"
 * purpose = "GATHER DEMOGRAPHIC DATA FROM PATIENTS"
 * url = "http://hl7.org/fhir/us/demographic-collect/Questionnaire/AHIPDemoQuestionnaire"
 * name = "AHIPDemographicQuestionnaire"

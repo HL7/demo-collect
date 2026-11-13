@@ -33,4 +33,4 @@ General discussion and questions about this IG:
 
 ### Downloads / Examples
 
-The package, the full guide, the definitions, and the examples are on the [Downloads](downloads.html) page.
+The package and the full guide are on the [Downloads](downloads.html) page.
