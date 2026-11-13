@@ -10,16 +10,16 @@ Pinned the version of http://terminology.hl7.org/CodeSystem/v3-MaritalStatus to 
 Pinned the version of http://terminology.hl7.org/CodeSystem/v3-ParticipationMode to %
 Pinned the version of http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation to %
 
-# Wrong Display Name (NullFlavor): 'I don't know' is the DEMo-tested label for ASKU
+# Used cognitively tested wording for a patient-facing questionnaire.
 Wrong Display Name 'I don't know' for http://terminology.hl7.org/CodeSystem/v3-NullFlavor#ASKU%
 
-# Wrong Display Name (CDC race): DEMo race categories use OMB-based, cognitively tested wording
+# Used cognitively tested wording for a patient-facing questionnaire.
 Wrong Display Name 'Black, African or African American' for urn:oid:2.16.840.1.113883.6.238#2054-5%
 Wrong Display Name 'Hispanic or Latino/a/e' for urn:oid:2.16.840.1.113883.6.238#2135-2%
 Wrong Display Name 'Native American, Alaska Native, or Indigenous' for urn:oid:2.16.840.1.113883.6.238#1002-5%
 Wrong Display Name 'Native Hawaiian or Pacific Islander' for urn:oid:2.16.840.1.113883.6.238#2076-8%
 
-# Wrong Display Name (CDC background): common self-identification terms
+# Used cognitively tested wording for a patient-facing questionnaire.
 Wrong Display Name 'Afghan' for urn:oid:2.16.840.1.113883.6.238#2126-1%
 Wrong Display Name 'Indian' for urn:oid:2.16.840.1.113883.6.238#2029-7%
 Wrong Display Name 'Lao' for urn:oid:2.16.840.1.113883.6.238#2041-2%
@@ -27,7 +27,7 @@ Wrong Display Name 'Argentinian' for urn:oid:2.16.840.1.113883.6.238#2166-7%
 Wrong Display Name 'Chicano/a' for urn:oid:2.16.840.1.113883.6.238#2151-9%
 Wrong Display Name 'Spanish' for urn:oid:2.16.840.1.113883.6.238#2137-8%
 
-# Wrong Display Name (CDC tribal): tribes shown by common name rather than full legal name
+# Used cognitively tested wording for a patient-facing questionnaire.
 Wrong Display Name 'Blackfeet' for urn:oid:2.16.840.1.113883.6.238#1035-5%
 Wrong Display Name 'Comanche' for urn:oid:2.16.840.1.113883.6.238#3109-6%
 Wrong Display Name 'Inupiat' for urn:oid:2.16.840.1.113883.6.238#3745-7%
@@ -37,7 +37,7 @@ Wrong Display Name 'Navajo' for urn:oid:2.16.840.1.113883.6.238#3321-7%
 Wrong Display Name 'Osage' for urn:oid:2.16.840.1.113883.6.238#1407-6%
 Wrong Display Name 'Yup'ik Eskimo' for urn:oid:2.16.840.1.113883.6.238#1896-0%
 
-# Wrong Display Name (SNOMED CT sex and gender): tested wording with plain-language explanations
+# Used cognitively tested wording for a patient-facing questionnaire.
 Wrong Display Name 'Intersex (having external body parts or reproductive organs that are not only male or female)' for http://snomed.info/sct#32570691000036108%
 Wrong Display Name 'Man' for http://snomed.info/sct#446151000124109%
 Wrong Display Name 'Woman' for http://snomed.info/sct#446141000124107%
@@ -45,33 +45,33 @@ Wrong Display Name 'Non-Binary (neither exclusively male nor female)' for http:/
 Wrong Display Name 'Gender Fluid (non-fixed gender identity that may change over time)' for http://snomed.info/sct#911671000124105%
 Wrong Display Name 'Two Spirit (a person who has both a masculine and feminine spirit, traditionally used in Native American/Alaskan Native communities)' for http://snomed.info/sct#911541000124103%
 
-# Wrong Display Name (SNOMED CT sexual orientation): tested wording with plain-language explanations
+# Used cognitively tested wording for a patient-facing questionnaire.
 Wrong Display Name 'Straight or heterosexual (attracted to gender different from your own)' for http://snomed.info/sct#20430005%
 Wrong Display Name 'Gay or lesbian (attracted to the same gender as your own)' for http://snomed.info/sct#38628009%
 Wrong Display Name 'Bisexual (attracted to same gender as your own and gender different from your own)' for http://snomed.info/sct#42035005%
 Wrong Display Name 'Asexual (little or no attraction to any gender)' for http://snomed.info/sct#765288000%
 Wrong Display Name 'Pansexual (attracted to any gender)' for http://snomed.info/sct#51431000087101%
 
-# Wrong Display Name (LOINC pronouns): DEMo preferred patient-facing terms
+# Used cognitively tested wording for a patient-facing questionnaire.
 Wrong Display Name 'He, him, his' for http://loinc.org#LA29518-0%
 Wrong Display Name 'She, her, hers' for http://loinc.org#LA29519-8%
 Wrong Display Name 'They, them, theirs (non-binary)' for http://loinc.org#LA29520-6%
 Wrong Display Name 'Ze, zir, zirs (non-binary)' for http://loinc.org#LA29523-0%
 Wrong Display Name 'Ze, hir, hirs (non-binary)' for http://loinc.org#LA29521-4%
 
-# Wrong Display Name (v3-ParticipationMode): interpreter and outreach modes in patient-facing terms
+# Used cognitively tested wording for a patient-facing questionnaire.
 Wrong Display Name 'Video' for http://terminology.hl7.org/CodeSystem/v3-ParticipationMode#VIDEOCONF%
 Wrong Display Name 'In-Person' for http://terminology.hl7.org/CodeSystem/v3-ParticipationMode#FACE%
 Wrong Display Name 'Phone Call' for http://terminology.hl7.org/CodeSystem/v3-ParticipationMode#PHONE%
 Wrong Display Name 'Mailed Letter' for http://terminology.hl7.org/CodeSystem/v3-ParticipationMode#MAILWRIT%
 Wrong Display Name 'Text Message' for http://terminology.hl7.org/CodeSystem/v3-ParticipationMode#MSGWRIT%
 
-# Wrong Display Name (v3-MaritalStatus): relationship status in patient-facing terms
+# Used cognitively tested wording for a patient-facing questionnaire.
 Wrong Display Name 'Separated' for http://terminology.hl7.org/CodeSystem/v3-MaritalStatus#L%
 Wrong Display Name 'In a registered domestic partnership' for http://terminology.hl7.org/CodeSystem/v3-MaritalStatus#T%
 Wrong Display Name 'Single' for http://terminology.hl7.org/CodeSystem/v3-MaritalStatus#U%
 
-# Wrong Display Name (religion and spirituality): DEMo preferred patient-facing terms
+# Used cognitively tested wording for a patient-facing questionnaire.
 Wrong Display Name 'Agnostic (not sure if there is a God)' for http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation#1004%
 Wrong Display Name 'Atheist (do not believe in God)' for http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation#1007%
 Wrong Display Name 'Baha'I' for http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation#1008%
@@ -99,7 +99,7 @@ INFORMATION: CodeSystem/ahip-demo-disability-codes: CodeSystem: Most code system
 # Draft code system references come from the FHIR R4 core CodeSystem questionnaire-item-control. This IG cannot change that.
 %Reference to draft CodeSystem http://hl7.org/fhir/questionnaire-item-control|4.0.1%
 
-# Wrong Display Name (BCP-47): common or community language names; each line covers both language value sets
+# Used cognitively tested wording for a patient-facing questionnaire.
 Wrong Display Name 'Athabaskan (Na-Dene)' for urn:ietf:bcp:47#ath%
 Wrong Display Name 'Chinese (Simplified)' for urn:ietf:bcp:47#zh-Hans%
 Wrong Display Name 'Chinese (Traditional)' for urn:ietf:bcp:47#zh-Hant%

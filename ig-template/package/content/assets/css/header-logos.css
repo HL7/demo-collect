@@ -1,3 +1,10 @@
+/* Same menu colors as US Core (assets/css/fhir-ig.css). */
+:root {
+  --navbar-bg-color: #ad1f2f;
+  --footer-container-bg-color: #ad1f2f;
+  --btn-hover-color: #790713;
+}
+
 #project-nav {
   display: flex;
   align-items: center;
