@@ -29,7 +29,7 @@ The guide already has the files the builder needs: `ig.ini`, `sushi-config.yaml`
 
 1. **Make the repository public.** The auto-builder clones from GitHub and only accepts a public repository. Making `HL7/demo-collect` public exposes the source, including `DEMo IG Non-Artifact Pages Sept 2026_redline.docx`. Confirm that is acceptable before changing visibility.
 2. **Who can install a GitHub App on HL7.** Installing [FHIR IG Builder](https://github.com/apps/fhir-ig-builder) on this repository needs permission to add GitHub Apps to the HL7 organization. Repository admin is not always enough. If GitHub asks for owner approval, an HL7 organization owner has to approve it. Install it on `HL7/demo-collect` only, not on every HL7 repository.
-3. **Template.** `ig.ini` uses a local template (`#ig-template`) based on `fhir2.base.template#current`. That template supplies the AHIP, HL7, and FHIR header logos. A local build with IG Publisher 3.0.1 completed with 0 errors. Narrative pages start at heading level 3 because the base template prints the page title as the top heading.
+3. **Template.** `ig.ini` uses a local template (`#ig-template`) based on `hl7.fhir.template#current`. That template adds the AHIP header logo on top of the HL7 FHIR template, which supplies the HL7 and FHIR logos and the HL7 menu color. Narrative pages start at heading level 3 because the base template prints the page title as the top heading.
 
 ## Steps
 

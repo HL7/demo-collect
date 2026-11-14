@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "type": "fhir.template",
   "license": "CC0-1.0",
-  "description": "AHIP DEMo header logos on fhir2.base.template",
-  "base": "fhir2.base.template",
+  "description": "AHIP DEMo header logo on hl7.fhir.template",
+  "base": "hl7.fhir.template",
   "dependencies": {
-    "fhir2.base.template": "current"
+    "hl7.fhir.template": "current"
   }
 }

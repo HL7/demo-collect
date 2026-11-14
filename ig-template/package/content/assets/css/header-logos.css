@@ -1,15 +1,10 @@
-/* Same menu colors as US Core (assets/css/fhir-ig.css). */
-:root {
-  --navbar-bg-color: #ad1f2f;
-  --footer-container-bg-color: #ad1f2f;
-  --btn-hover-color: #790713;
-}
-
 #project-nav {
   display: flex;
   align-items: center;
-  gap: 16px;
+  float: left;
   line-height: normal;
+  margin-top: 8px;
+  margin-left: 6px;
 }
 
 #project-nav a {
@@ -17,8 +12,7 @@
   line-height: 0;
 }
 
-#project-nav img,
-#family-logo img {
+#project-nav img {
   height: 44px;
   width: auto;
 }

@@ -16,9 +16,8 @@ This page provides links and short descriptions for project information, how to 
 
 To suggest changes to this Implementation Guide (e.g., new value set members, code system changes, or narrative updates):
 
-1. **GitHub issues** – Until an HL7 Jira project is assigned, open an issue on [HL7/demo-collect](https://github.com/HL7/demo-collect/issues). The Feedback link in the page footer uses this same address.
-2. **HL7 Jira** – When a Jira project is assigned, substantive change requests will move there. Reference this IG by name or canonical URL.
-3. **DEMo / AHIP process** – For content that affects demographic definitions or DEMo alignment, coordinate through the DEMo Initiative or AHIP Health Equity Workgroup so that balloted content stays aligned.
+1. **Propose a change** – Use the Propose a change link in the page footer. It opens HL7 FHIR specification feedback. Reference this IG by name or canonical URL.
+2. **DEMo / AHIP process** – For content that affects demographic definitions or DEMo alignment, coordinate through the DEMo Initiative or AHIP Health Equity Workgroup so that balloted content stays aligned.
 
 ---
 
